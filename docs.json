@@ -34,6 +34,7 @@
               "index",
               {
                 "group": "Frequently asked questions",
+                "icon": "circle-question",
                 "pages": [
                   "faq/plugin-doesnt-work",
                   "faq/identify-why-textures-are-not-shown",
@@ -84,6 +85,7 @@
               },
               {
                 "group": "Compatibility with other plugins",
+                "icon": "square-check",
                 "pages": [
                   "compatibility-with-other-plugins/not-compatible",
                   {
@@ -167,6 +169,7 @@
               },
               {
                 "group": "Contribute",
+                "icon": "pen-to-square",
                 "pages": [
                   "contribute/edit-the-english-wiki",
                   "contribute/translate-this-wiki",
@@ -181,6 +184,7 @@
               "plugin-usage/first-install",
               {
                 "group": "Beginners",
+                "icon": "hand-wave",
                 "pages": [
                   "plugin-usage/beginners/video-tutorials",
                   "plugin-usage/beginners/files-editor",
@@ -193,6 +197,7 @@
               },
               {
                 "group": "Resourcepack Hosting",
+                "icon": "file-image",
                 "pages": [
                   "plugin-usage/resourcepack-hosting/resourcepack-self-hosting",
                   "plugin-usage/resourcepack-hosting/lobfile-hosting",
@@ -204,6 +209,7 @@
               },
               {
                 "group": "Adding Content",
+                "icon": "file-plus",
                 "pages": [
                   {
                     "group": "Item Properties",
@@ -367,6 +373,7 @@
               "plugin-usage/languages",
               {
                 "group": "Commands",
+                "icon": "square-terminal",
                 "pages": [
                   "plugin-usage/commands/iaconfig",
                   "plugin-usage/commands/iarename",
@@ -381,6 +388,7 @@
               "plugin-usage/text-formatting",
               {
                 "group": "Scripting",
+                "icon": "code",
                 "pages": [
                   "scripting/constructs",
                   "scripting/examples"
