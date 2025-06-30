@@ -11,8 +11,7 @@
   "navigation": {
     "groups": [
       {
-        "group": "Table of Contents",
-        "icon": "book",
+        "group": "Table of contents",
         "pages": [
           {
             "group": "Frequently asked questions",
@@ -154,7 +153,12 @@
               "contribute/translate-this-wiki",
               "contribute/preview-wiki-changes"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "group": "Plugin usage",
+        "pages": [
           "plugin-usage/first-install",
           {
             "group": "Beginners",
@@ -363,15 +367,30 @@
               "scripting/examples"
             ]
           },
-          "items-updater",
+          "items-updater"
+        ]
+      },
+      {
+        "group": "Other",
+        "pages": [
           "other/resourcepack-protection",
           "other/custom-player-stats",
           "other/hide-scoreboard-numbers-1.17+",
           "other/loading-screen",
           "other/bulk-colorize-images",
           "other/videos-by-users",
-          "other/minecraft-hosting",
-          "help/tos",
+          "other/minecraft-hosting"
+        ]
+      },
+      {
+        "group": "HELP",
+        "pages": [
+          "help/tos"
+        ]
+      },
+      {
+        "group": "Developers",
+        "pages": [
           {
             "group": "Java API",
             "pages": [

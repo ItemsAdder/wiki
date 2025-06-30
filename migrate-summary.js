@@ -5,100 +5,133 @@ const path = require("path");
 const summaryPath = path.join(__dirname, "SUMMARY.md.old");
 const docsJsonPath = path.join(__dirname, "docs.json");
 
-function parseLine(line) {
+// Parsing riga tipo "* [Titolo](link)"
+function parseLinkLine(line) {
   const regex = /^\s*\*\s*\[([^\]]+)\]\(([^)]+)\)/;
   const match = line.match(regex);
   if (match) {
-    const url = match[2].trim();
-    if (url.startsWith("http")) {
-      // IGNORA link esterni
-      return null;
-    }
     return {
       title: match[1].trim(),
-      link: url.replace(/\.md$/, "")
+      link: match[2].trim()
     };
   }
   return null;
 }
 
+// Costruisce la struttura
 function buildNavigation(lines) {
-  const stack = [];
-  const root = [];
-  let current = root;
-  let prevIndent = 0;
+  const allGroups = [];
+  let currentSuperGroup = "";
+  let currentNodes = [];
+  let stack = [];
 
   lines.forEach((line) => {
     const trimmed = line.trim();
-    if (trimmed.startsWith("*")) {
-      const indent = line.search(/\S/);
-      const item = parseLine(line);
-      if (!item) return;
+    if (!trimmed) return;
 
-      const node = { title: item.title, link: item.link, children: [] };
-
-      if (indent === prevIndent) {
-        current.push(node);
-      } else if (indent > prevIndent) {
-        stack.push(current);
-        current = current[current.length - 1].children;
-        current.push(node);
-      } else {
-        while (stack.length && indent < prevIndent) {
-          current = stack.pop();
-          prevIndent -= 2;
-        }
-        current.push(node);
+    // Intestazione #, ##, ###
+    const headerMatch = line.match(/^\s*#+\s+(.*)/);
+    if (headerMatch) {
+      // Se stavamo accumulando nodi nel vecchio super gruppo, salviamo
+      if (currentNodes.length) {
+        allGroups.push({
+          group: currentSuperGroup,
+          nodes: [...currentNodes]
+        });
       }
-      prevIndent = indent;
+      currentSuperGroup = headerMatch[1].trim();
+      currentNodes = [];
+      stack = [];
+      return;
     }
-  });
 
-  return root;
-}
+    const indent = line.search(/\S/);
+    const parsed = parseLinkLine(line);
+    if (!parsed) return;
 
-function convertToMintlifyGroup(items) {
-  return items.map((item) => {
-    if (item.children && item.children.length) {
-      return {
-        group: item.title,
-        pages: convertToMintlifyGroup(item.children)
-      };
+    // Remove .md extension
+    let cleanLink = parsed.link;
+    if (cleanLink.endsWith(".md")) {
+      cleanLink = cleanLink.slice(0, -3);
+    }
+
+    const node = {
+      title: parsed.title,
+      link: cleanLink,
+      children: []
+    };
+
+    if (indent === 0) {
+      currentNodes.push(node);
+      stack = [{ indent, node }];
     } else {
-      return item.link;
+      while (stack.length && stack[stack.length - 1].indent >= indent) {
+        stack.pop();
+      }
+      const parent = stack[stack.length - 1];
+      if (!parent) {
+        console.warn(`⚠️  Skipping orphan node "${node.title}" (no parent found)`);
+        return;
+      }
+      parent.node.children.push(node);
+      stack.push({ indent, node });
     }
+  });
+
+  // Aggiungi l'ultimo gruppo se non vuoto
+  if (currentNodes.length) {
+    allGroups.push({
+      group: currentSuperGroup,
+      nodes: currentNodes
+    });
+  }
+
+  return allGroups;
+}
+
+// Conversione gruppi in navigation.groups
+function convertToNavigationGroups(allGroups) {
+  return allGroups.map((grp) => {
+    return {
+      group: grp.group,
+      pages: convertNodes(grp.nodes)
+    };
   });
 }
 
-function main() {
-  if (!fs.existsSync(summaryPath)) {
-    console.error(`File not found: ${summaryPath}`);
-    process.exit(1);
-  }
-  if (!fs.existsSync(docsJsonPath)) {
-    console.error(`File not found: ${docsJsonPath}`);
-    process.exit(1);
-  }
+// Conversione ricorsiva nodi
+function convertNodes(children) {
+    return children
+        .filter((c) => !c.link.startsWith("http") && c.link.toLowerCase() !== "readme")
+        .map((c) => {
+            if (c.children.length) {
+                return {
+                    group: c.title,
+                    pages: convertNodes(c.children)
+                };
+            } else {
+                return c.link;
+            }
+        });
+}
 
+// Main
+function main() {
   const lines = fs.readFileSync(summaryPath, "utf-8").split(/\r?\n/);
-  const tree = buildNavigation(lines);
-  const newGroup = {
-    group: "Table of Contents",
-    icon: "book",
-    pages: convertToMintlifyGroup(tree)
-  };
+  const allGroups = buildNavigation(lines);
+  const navGroups = convertToNavigationGroups(allGroups);
 
   const docsJson = JSON.parse(fs.readFileSync(docsJsonPath, "utf-8"));
-
-  // Se navigation o groups non esistono, li creiamo
   if (!docsJson.navigation) docsJson.navigation = {};
-  if (!docsJson.navigation.groups) docsJson.navigation.groups = [];
+  docsJson.navigation.groups = navGroups;
 
-  // Sostituisci SOLO il primo groups[0]
-  docsJson.navigation.groups[0] = newGroup;
+  fs.writeFileSync(
+    docsJsonPath,
+    JSON.stringify(docsJson, null, 2),
+    "utf-8"
+  );
 
-  fs.writeFileSync(docsJsonPath, JSON.stringify(docsJson, null, 2));
-  console.log(`✅ Updated ${docsJsonPath} (external links skipped)`);
+  console.log("✅ docs.json aggiornato con i nuovi gruppi (README.md e link esterni ignorati)");
 }
 
 main();
