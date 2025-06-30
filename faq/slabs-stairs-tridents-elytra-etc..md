@@ -1,5 +1,5 @@
 ---
-icon: question
+description: ""
 ---
 
 # Slabs, stairs, tridents, elytra etc.

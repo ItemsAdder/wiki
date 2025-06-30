@@ -1,5 +1,5 @@
 ---
-icon: alert
+description: ""
 ---
 
 # "Duplicate recipe ignored" error

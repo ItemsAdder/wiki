@@ -1,5 +1,5 @@
 ---
-icon: cog
+description: ""
 ---
 
 # Cannot retrieve entity from ID

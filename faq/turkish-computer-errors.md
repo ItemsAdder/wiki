@@ -1,5 +1,5 @@
 ---
-icon: cog
+description: ""
 ---
 
 # 🇹🇷 🇹🇷 Turkish computer errors
