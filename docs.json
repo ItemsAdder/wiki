@@ -316,6 +316,7 @@
                   {
                     "group": "Player Emotes",
                     "pages": [
+                      "plugin-usage/adding-content/player-emotes/README",
                       "plugin-usage/adding-content/player-emotes/animations",
                       "plugin-usage/adding-content/player-emotes/advanced-properties",
                       "plugin-usage/adding-content/player-emotes/particles",
@@ -447,11 +448,26 @@
     "dark": "/logo/logo.png"
   },
   "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Discord",
-      "href": "https://discord.gg/4dfnpUK"
-    }
+    "links": [
+      {
+        "label": "Donate",
+        "href": "https://donate.devs.beer/",
+        "icon": "heart"
+      },
+      {
+        "label": "Addons",
+        "href": "https://addon.devs.beer/"
+      },
+      {
+        "label": "More Plugins",
+        "href": "https://plugins.devs.beer/"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/4dfnpUK",
+        "icon": "discord"
+      }
+    ]
   },
   "integrations": {
     "cookies": {
