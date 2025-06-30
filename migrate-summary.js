@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const summaryPath = path.join(__dirname, "SUMMARY.md");
+const summaryPath = path.join(__dirname, "SUMMARY.md.old");
 const docsJsonPath = path.join(__dirname, "docs.json");
 
 function parseLine(line) {
