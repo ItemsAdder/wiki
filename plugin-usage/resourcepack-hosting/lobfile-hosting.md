@@ -46,13 +46,13 @@ Create an account on [LobFile here](https://lobfile.com/create-account).
 
 Open your [account settings here](https://lobfile.com/my-account) and check _**"Continuous uploading"**_
 
-<img src="../../.gitbook/assets/image (233).png" alt="" />
+<img src="assets/images/image (233).png" alt="" />
 
 #### Step 3
 
 Hover the `API Key` text and copy your key.
 
-<img src="../../.gitbook/assets/image (234).png" alt="" />
+<img src="assets/images/image (234).png" alt="" />
 
 #### Step 4
 

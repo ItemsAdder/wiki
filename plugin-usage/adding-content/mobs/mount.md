@@ -17,25 +17,25 @@ Open your `.iaentitymodel` model file with **Blockbench**.
 
 Create a new bone.
 
-![](<../../../.gitbook/assets/image (207).png>)
+![](<assets/images/image (207).png>)
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../.gitbook/assets/image (188).png>)
+![](<assets/images/image (188).png>)
 
 Check the "**Mount**" option and press "**Confirm**".
 
-![](<../../../.gitbook/assets/image (157).png>)
+![](<assets/images/image (157).png>)
 
 Do this for each sit you want to create.
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<assets/images/image (68).png>)
 
-![](<../../../.gitbook/assets/image (167).png>)
+![](<assets/images/image (167).png>)
 
-![](<../../../.gitbook/assets/image (89).png>)
+![](<assets/images/image (89).png>)
 
-![](<../../../.gitbook/assets/image (99).png>)
+![](<assets/images/image (99).png>)
 
 Now you have to export the model as usual.
 

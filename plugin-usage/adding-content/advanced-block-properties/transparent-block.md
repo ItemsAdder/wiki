@@ -4,7 +4,7 @@ icon: sheet-plastic
 
 # Transparent block
 
-<img src="../../../.gitbook/assets/image (132).png" alt="" />
+<img src="assets/images/image (132).png" alt="" />
 
 To create a transparent block you have to use `REAL_TRANSPARENT` block model type.
 
@@ -28,5 +28,5 @@ items:
 ```
 
 
-[Download file](../../../.gitbook/assets/test_transparent.zip)
+[Download file](assets/files/test_transparent.zip)
 

@@ -6,7 +6,7 @@ icon: info
 
 ## Glow outline is strange on players when they wear armor
 
-<img src="../.gitbook/assets/armor-glow-outline-bug.png" alt="" />
+<img src="assets/images/armor-glow-outline-bug.png" alt="" />
 
 ### This is a known issue
 

@@ -16,6 +16,6 @@ For now it doesn't allow inserting custom logo but only changing colors and hidi
 
 ## Examples
 
-<img src="../.gitbook/assets/image (231).png" alt="" />
+<img src="assets/images/image (231).png" alt="" />
 
-<img src="../.gitbook/assets/image (232).png" alt="" />
+<img src="assets/images/image (232).png" alt="" />

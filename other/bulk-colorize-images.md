@@ -17,6 +17,6 @@ It allows you to colorize multiple PNG images without having to manually edit ea
 
 With this tool I managed to color my custom HUD automatically without opening each file manually with an image editor.
 
-<img src="../.gitbook/assets/image (43).png" alt="" />
+<img src="assets/images/image (43).png" alt="" />
 
-<img src="../.gitbook/assets/image (44).png" alt="" />
+<img src="assets/images/image (44).png" alt="" />

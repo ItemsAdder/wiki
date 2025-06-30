@@ -5,7 +5,7 @@ icon: server
 
 # Minecraft Server Hosting
 
-![](../.gitbook/assets/MMICa0s.gif)
+![](assets/images/MMICa0s.gif)
 
 
 <Note>

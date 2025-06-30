@@ -67,52 +67,52 @@ entities:
 
 Create a new `ItemsAdder Entity Model`.
 
-<img src="../../.gitbook/assets/image (10).png" alt="" />
+<img src="assets/images/image (10).png" alt="" />
 
 In this example I called it `ceiling_fan`.
 
-<img src="../../.gitbook/assets/image (11).png" alt="" />
+<img src="assets/images/image (11).png" alt="" />
 
 Create your model.
 
-<img src="../../.gitbook/assets/image (23).png" alt="" />
+<img src="assets/images/image (23).png" alt="" />
 
 
 
 Switch to the animation panel.&#x20;
 
-<img src="../../.gitbook/assets/image (24).png" alt="" />
+<img src="assets/images/image (24).png" alt="" />
 
 Create a new `idle` animation.
 
-<img src="../../.gitbook/assets/image (25).png" alt="" />
+<img src="assets/images/image (25).png" alt="" />
 
-<img src="../../.gitbook/assets/image (15).png" alt="" />
+<img src="assets/images/image (15).png" alt="" />
 
 Animate the entity as you wish.
 
-<img src="../../.gitbook/assets/image (26).png" alt="" />
+<img src="assets/images/image (26).png" alt="" />
 
 Open the entity settings and set the correct namespace. In my example I use `my_furniture`.
 
-<img src="../../.gitbook/assets/image (17).png" alt="" />
+<img src="assets/images/image (17).png" alt="" />
 
-<img src="../../.gitbook/assets/image (22).png" alt="" />
+<img src="assets/images/image (22).png" alt="" />
 
 Save the project as `ceiling_fan.iaentity`  (for example) inside your namespace folder root.\
 You will be able to edit it anytime you want in the future.
 
 
 
-<img src="../../.gitbook/assets/image (19).png" alt="" />
+<img src="assets/images/image (19).png" alt="" />
 
-<img src="../../.gitbook/assets/image (20).png" alt="" />
+<img src="assets/images/image (20).png" alt="" />
 
 Export the model. This is the model file that will be loaded by ItemsAdder.
 
-<img src="../../.gitbook/assets/image (21).png" alt="" />
+<img src="assets/images/image (21).png" alt="" />
 
 Get the item ingame using `/iaget my_furniture:ceiling_fan`.
 
-<img src="../../.gitbook/assets/ezgif-4f55fae1f8968a (1).gif" alt="" />
+<img src="assets/images/ezgif-4f55fae1f8968a (1).gif" alt="" />
 

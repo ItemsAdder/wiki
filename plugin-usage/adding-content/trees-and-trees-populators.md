@@ -199,4 +199,4 @@ This property is optional, this tree will spawn on every biome if you don't set 
 [View here](https://www.spigotmc.org/resources/trees-newtrees-itemsadder-addon.84604/)
 
 
-![](../../.gitbook/assets/image_\(125\).png)
+![](assets/images/image_\(125\).png)

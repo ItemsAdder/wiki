@@ -30,6 +30,6 @@ huds-guis-images-and-more.md
 [View here](https://www.spigotmc.org/resources/addon-rpghuds-for-itemsadder.97486)
 
 
-![](../../../../.gitbook/assets/78b0de78224899524466178c9e7af2ade34514f1.gif)
+![](../../assets/images/78b0de78224899524466178c9e7af2ade34514f1.gif)
 
-![](../../../../.gitbook/assets/e32ea483cc0e3e389c90081e2f6f1f33ed043440.gif)
+![](../../assets/images/e32ea483cc0e3e389c90081e2f6f1f33ed043440.gif)

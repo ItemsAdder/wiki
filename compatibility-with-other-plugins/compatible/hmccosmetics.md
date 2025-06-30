@@ -16,7 +16,7 @@ The official cosmetics solution for ItemsAdder is here instead: [CosmeticsCore](
 
 ## [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
 
-![](../../.gitbook/assets/HMCCOSMETICS-1.png)
+![](assets/images/HMCCOSMETICS-1.png)
 
 ### How to Install
 

@@ -13,4 +13,4 @@ resourcepack-popup-message: "&6Welcome &b{player}, &6please accept the resourcep
 ```
 
 
-![](<../.gitbook/assets/immagine (55).png>)
+![](<assets/images/immagine (55).png>)

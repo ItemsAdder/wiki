@@ -57,7 +57,7 @@ Won't show any indicator.
 
 Shows a custom HUD on-screen.
 
-<img src="../../../../.gitbook/assets/image (47).png" alt="" />
+<img src="assets/images/image (47).png" alt="" />
 
 
 <Note>
@@ -91,7 +91,7 @@ If you want to create a custom HUD, but you don't want to waste time coloring, y
 
 Shows a big on-screen title indicator.
 
-<img src="../../../../.gitbook/assets/image (48).png" alt="" />
+<img src="assets/images/image (48).png" alt="" />
 
 ```yaml
   healing_crystals:
@@ -110,7 +110,7 @@ Shows a big on-screen title indicator.
 
 Shows a bossbar on-screen.
 
-<img src="../../../../.gitbook/assets/image (49).png" alt="" />
+<img src="assets/images/image (49).png" alt="" />
 
 
 <Note>

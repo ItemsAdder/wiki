@@ -42,7 +42,7 @@ On the other hand you will need more namespaces if you are a contents creator an
 
 All **realcraft** items are under the `realcraft` namespace, so when you use the `/iaget` command you can see all items IDs start with `realcraft:`
 
-![](<../../.gitbook/assets/image (223).png>)
+![](<assets/images/image (223).png>)
 
 ## How can I define my own namespace?
 
@@ -53,7 +53,7 @@ In this example I will create a **namespace** and call it `myitems`.
 Open the `myitems` folder and create a new file, you can call it like as you prefer.\
 For example: `contents/myitems/myswords.yml`
 
-![](../../.gitbook/assets/my_swords_yml.png)
+![](assets/images/my_swords_yml.png)
 
 The **namespace** must be also specified in the file, so open the new `myswords.yml` file and paste this:
 

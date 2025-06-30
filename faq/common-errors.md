@@ -12,8 +12,8 @@ In order to avoid these issues you should avoid opening many custom projects in 
 
 ## "Scale out of bounds" error
 
-![](<../.gitbook/assets/image (104).png>)
+![](<assets/images/image (104).png>)
 
 In order to fix this you have to open the **ItemsAdder Entity** settings and set [Max Scaling](broken-reference).
 
-![](<../.gitbook/assets/image (83).png>)
+![](<assets/images/image (83).png>)

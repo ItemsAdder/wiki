@@ -65,7 +65,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ### Download the ["Default pack" here](https://github.com/ItemsAdder/DefaultPack/releases/latest)
 
-<div align="left"><img src="../.gitbook/assets/image (63).png" alt="" /></div>
+<div align="left"><img src="assets/images/image (63).png" alt="" /></div>
 
 * Extract the content into the `ItemsAdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.
@@ -77,7 +77,7 @@ It's not automatically included in the downloaded plugin because some people mig
 
 ### Download ["Other pack" here](https://github.com/ItemsAdder/OtherPacks/releases/latest)
 
-<div align="left"><img src="../.gitbook/assets/image (94).png" alt="" /></div>
+<div align="left"><img src="assets/images/image (94).png" alt="" /></div>
 
 * Extract the content into the `ItemAsdder` folder and overwrite the files if asked.
 * Run the `/iazip` command.

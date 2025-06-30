@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # Self hosting
@@ -29,9 +29,9 @@ You just have to use command `/iazip` and you'll see changes applied in-game alm
 
 For example on **Pterodactyl**:
 
-![](<../../.gitbook/assets/immagine (51).png>)
+![](<assets/images/immagine (51).png>)
 
-![](<../../.gitbook/assets/immagine (15).png>)
+![](<assets/images/immagine (15).png>)
 
 * After you obtained a **new port** you can open `config.yml` and set it like this:
 
@@ -101,9 +101,9 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 
 ### Create a new `DNS record`
 
-<img src="../../.gitbook/assets/image (33).png" alt="" />
+<img src="assets/images/image (33).png" alt="" />
 
-<img src="../../.gitbook/assets/image (39).png" alt="" />
+<img src="assets/images/image (39).png" alt="" />
 
 * type: `A`
 * name: `pack` (for example)
@@ -111,21 +111,21 @@ This guide might make your traffic lower due to how Cloudflare caches requests a
 * Proxy status: `Proxied`
 * Click **Save**
 
-<img src="../../.gitbook/assets/image (35).png" alt="" />
+<img src="assets/images/image (35).png" alt="" />
 
 ### Create a new `Origin rule`
 
-<img src="../../.gitbook/assets/image (243).png" alt="" />
+<img src="assets/images/image (243).png" alt="" />
 
-<img src="../../.gitbook/assets/image (244).png" alt="" />
+<img src="assets/images/image (244).png" alt="" />
 
 Select "Change Port" and "Create a Rule".
 
-<img src="../../.gitbook/assets/image (36).png" alt="" />
+<img src="assets/images/image (36).png" alt="" />
 
 Select "Custom filer expression" and complete as shown in the screenshot changing the values based on your setup.
 
-<img src="../../.gitbook/assets/image (41).png" alt="" />
+<img src="assets/images/image (41).png" alt="" />
 
 ### Configure ItemsAdder
 

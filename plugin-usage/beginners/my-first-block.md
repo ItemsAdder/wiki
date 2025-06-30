@@ -65,7 +65,7 @@ Read more here: [folders structure](configs-and-resourcepack.md#why-different-fo
 
 </details>
 
-<img src="../../.gitbook/assets/red_block_textures_preview.png" alt="" />
+<img src="assets/images/red_block_textures_preview.png" alt="" />
 
 ### Applying the textures files to your item
 
@@ -153,11 +153,11 @@ items:
 
 Run `/iaget red_block` to get the item.
 
-![](<../../.gitbook/assets/immagine (48).png>)
+![](<assets/images/immagine (48).png>)
 
-![](<../../.gitbook/assets/immagine (87).png>)
+![](<assets/images/immagine (87).png>)
 
-![](<../../.gitbook/assets/immagine (12).png>)
+![](<assets/images/immagine (12).png>)
 
 ## Download the complete example
 

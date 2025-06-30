@@ -20,4 +20,4 @@ resource:
   model_path: item/your_model
 ```
 
-![Potion bottles with semi-transparency.](<../../../.gitbook/assets/image (151).png>)
+![Potion bottles with semi-transparency.](<assets/images/image (151).png>)

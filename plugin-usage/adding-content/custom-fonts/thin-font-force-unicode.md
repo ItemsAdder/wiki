@@ -8,7 +8,7 @@ icon: info
 
 Normally on Minecraft you set **Force Unicode Font: ON** to get the _"thin font"_.
 
-![](../../../.gitbook/assets/immagine%20%284%29.png)
+![](assets/images/immagine%20%284%29.png)
 
   
 With **ItemsAdder** this is not possible because it would make emoji, GUIs, HUDs not working anymore. It's a Minecraft bug.
@@ -19,7 +19,7 @@ You must set **Force Unicode Font: OFF**
 </Warning>
 
 
-![](../../../.gitbook/assets/immagine%20%283%29.png)
+![](assets/images/immagine%20%283%29.png)
 
 and **set this** in `config.yml`
 
@@ -39,7 +39,7 @@ Check [Resourcepack tutorials](../../resourcepack-hosting/)
 
 ### This is the result
 
-![](../../../.gitbook/assets/immagine%20%286%29.png)
+![](assets/images/immagine%20%286%29.png)
 
 
 <Note>

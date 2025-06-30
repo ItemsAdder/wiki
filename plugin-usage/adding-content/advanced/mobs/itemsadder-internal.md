@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # ItemsAdder internal
@@ -145,7 +145,7 @@ items:
       mob_animation: true
 ```
 
-![](../../../../.gitbook/assets/image%20%2816%29.png)
+![](assets/images/image%20%2816%29.png)
 
 ## Spawn the mob naturally
 

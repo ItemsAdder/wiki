@@ -27,7 +27,7 @@ The `equipment` is a property which contains the information how to show the arm
 
 Create the layers files inside the folder: `contents/my_armor_tutorial/textures/armor/my_armor_1` .
 
-<img src="../../.gitbook/assets/armor_textures_preview.png" alt="" />
+<img src="assets/images/armor_textures_preview.png" alt="" />
 
 ## Item configuration
 
@@ -58,9 +58,9 @@ This loads our previously created equipment settings.
 Create the item texture and put it inside the folder:\
 `contents/my_armor_tutorial/textures/item`.
 
-<img src="../../.gitbook/assets/image (239).png" alt="" />
+<img src="assets/images/image (239).png" alt="" />
 
-![](<../../.gitbook/assets/image (211).png>)
+![](<assets/images/image (211).png>)
 
 ## Extra: Custom 3D helmet
 
@@ -86,7 +86,7 @@ Do not put any `id` in the `equipment`, otherwise the previous layer texture wou
 </Warning>
 
 
-<img src="../../.gitbook/assets/image (238).png" alt="" />
+<img src="assets/images/image (238).png" alt="" />
 
 ### Full configuration from the previous example
 
@@ -157,7 +157,7 @@ items:
 </details>
 
 
-[Download file](../../.gitbook/assets/my_armor_tutorial (1).zip)
+[Download file](assets/files/my_armor_tutorial (1).zip)
 
 
 ## Animated/emissive armors
@@ -357,7 +357,7 @@ items:
 </details>
 
 
-[Download file](../../.gitbook/assets/my_armor_tutorial_legacy_fix.zip)
+[Download file](assets/files/my_armor_tutorial_legacy_fix.zip)
 
 
 ## Converting old armors to the new equipment tag

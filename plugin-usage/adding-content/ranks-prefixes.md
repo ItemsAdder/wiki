@@ -10,7 +10,7 @@ icon: hashtag
 </Warning>
 
 
-![](<../../.gitbook/assets/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<assets/images/image (27) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Download the example ranks [here](https://www.spigotmc.org/resources/ranks-betterranks-with-custom-textures-for-itemsadder.84852/).
 
@@ -42,7 +42,7 @@ It would make the ranks look pixelated.
 [View here](https://itemsadder.github.io/minecraft-rank-generator/)
 
 
-<img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" />
+<img src="assets/images/image (1) (1) (1).png" alt="" />
 
 Put the image into `contents/myranks/textures/font/admin.png`.
 
@@ -57,29 +57,29 @@ Open the editor `/lp editor`.
 Click on the link and open the web editor.\
 Select the role. In this case `admin`.
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<assets/images/image (67).png>)
 
 Add a new permission:`prefix.100.:admin:` . Change `:admin:` based on your rank name.
 
-![](<../../.gitbook/assets/image (187).png>)
+![](<assets/images/image (187).png>)
 
 Press <mark style="color:green;">**`+Add`**</mark>
 
-![](<../../.gitbook/assets/image (165).png>)
+![](<assets/images/image (165).png>)
 
 You now have a new line in the permissions list, this is the prefix setting.
 
-![](<../../.gitbook/assets/image (105).png>)
+![](<assets/images/image (105).png>)
 
 Save your changes.
 
-![](<../../.gitbook/assets/image (202).png>)
+![](<assets/images/image (202).png>)
 
 #### Assign the group to a player
 
 Use this command (change `LoneDev` to your player name) `/lp user LoneDev group add admin`
 
-![](<../../.gitbook/assets/immagine (30).png>)
+![](<assets/images/immagine (30).png>)
 
 ## TAB plugin
 
@@ -102,6 +102,6 @@ Make sure you installed [PlaceholderAPI](broken-reference/)
 
 Then use the command `/tab reload`.
 
-![](<../../.gitbook/assets/immagine (40).png>)
+![](<assets/images/immagine (40).png>)
 
-![](<../../.gitbook/assets/immagine (98).png>)
+![](<assets/images/immagine (98).png>)

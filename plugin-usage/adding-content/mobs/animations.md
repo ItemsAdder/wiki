@@ -20,7 +20,7 @@ The ItemsAdder Blockbench extension does that automatically on conversion, but s
 
 Right click an animation and make sure the animation type is correct.
 
-![](<../../../.gitbook/assets/image (101).png>)
+![](<assets/images/image (101).png>)
 
 You can set some special animations by settings their name instead, as some new features are not avilable in the dropdown menu.
 

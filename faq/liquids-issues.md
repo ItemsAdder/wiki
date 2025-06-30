@@ -26,7 +26,7 @@ Source: [https://www.spigotmc.org/threads/how-to-create-custom-biomes.512105/pag
 
 </details>
 
-![](<../.gitbook/assets/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (2).png>)
+![](<assets/images/immagine (14) (1) (2) (3) (3) (4) (4) (5) (7) (8) (3) (2).png>)
 
 ### I cannot see liquid color at all, even by placing it in a different location
 
@@ -34,11 +34,11 @@ You have to set the biome blend to `5x5` or lower.
 
 #### Bad
 
-<img src="../.gitbook/assets/image (226).png" alt="" />
+<img src="assets/images/image (226).png" alt="" />
 
 #### Good
 
-<img src="../.gitbook/assets/image (213).png" alt="" />
+<img src="assets/images/image (213).png" alt="" />
 
 ## Liquids do not spread like water!
 
@@ -49,4 +49,4 @@ Use multiple liquid buckets to create a larger liquid area.
 </Note>
 
 
-<img src="../.gitbook/assets/water_bug_3.png" alt="" />
+<img src="assets/images/water_bug_3.png" alt="" />

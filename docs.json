@@ -14,7 +14,6 @@
         "group": "Table of Contents",
         "icon": "book",
         "pages": [
-          "README",
           {
             "group": "Frequently asked questions",
             "pages": [

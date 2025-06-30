@@ -9,7 +9,7 @@ icon: person-walking
 
 Make sure you accepted the resourcepack and that you enabled emotes in `config.yml` of ItemsAdder. Try also to regenerate the pack using `/iazip`.
 
-<img src="../.gitbook/assets/image.png" alt="" />
+<img src="assets/images/image.png" alt="" />
 
 ## Shader Mod issues
 
@@ -20,12 +20,12 @@ The only way to _"fix"_ this is by disabling the shaders themself or removing th
 <Tabs>
   <Tab title="With Shaders on (Bug)">
 
-![shader bug](<../.gitbook/assets/image (75).png>)
+![shader bug](<assets/images/image (75).png>)
 
   </Tab>
   <Tab title="With Shaders off (No Bug)">
 
-![no shader bug](<../.gitbook/assets/image (127).png>)
+![no shader bug](<assets/images/image (127).png>)
 
   </Tab>
 </Tabs>

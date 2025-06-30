@@ -24,4 +24,4 @@ Read more here: [https://github.com/SHsuperCM/CITResewn/issues/87](https://githu
 
 Enable smooth lighting to fix emission
 
-![](<../.gitbook/assets/image (197).png>)
+![](<assets/images/image (197).png>)

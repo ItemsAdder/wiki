@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # (old) Textured Armor
@@ -70,7 +70,7 @@ You must decide a color! Even if the armor won't be colored. The color is like a
 
 Now I create the two PNG files inside the `contents/my_items/textures/armor/my_armor/` folder.
 
-<img src="../../../.gitbook/assets/armor_textures_preview.png" alt="" />
+<img src="assets/images/armor_textures_preview.png" alt="" />
 
 
 <Note>
@@ -134,22 +134,22 @@ In this example I created also a new folder called `my_armor` to better organize
 
 `contents/my_items/textures/item/my_armor/chestplate.png`
 
-![](../../../.gitbook/assets/chestplate_item_red.png)
+![](assets/images/chestplate_item_red.png)
 
-![](<../../../.gitbook/assets/image (211).png>)
+![](<assets/images/image (211).png>)
 
 ### Animated textures
 
 You can also create animated armors!
 
-![](<../../../.gitbook/assets/ezgif-7-3b3a255fe802 (1).gif>)
+![](<../assets/images/ezgif-7-3b3a255fe802 (1).gif>)
 
 To create an animated armor you have to create an image with all the animation frames.\
 Each frame must be under the previous. This is an example this is a 3 frames animation:
 
-![layer\_1](../../../.gitbook/assets/layer_1.png)
+![layer\_1](assets/images/layer_1.png)
 
-![layer\_2](../../../.gitbook/assets/layer_2.png)
+![layer\_2](assets/images/layer_2.png)
 
 Now let's edit the rendering properties to support the animation.
 
@@ -325,7 +325,7 @@ items:
 </details>
 
 
-[Download file](../../../.gitbook/assets/myarmor_example (1).zip)
+[Download file](assets/files/myarmor_example (1).zip)
 
 Extract the zip into the `contents` folder of ItemsAdder
 

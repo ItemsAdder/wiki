@@ -14,7 +14,7 @@ icon: arrows-maximize
 
 If you want to adjust it you just have to use Blockbench as usual and:
 
-![](<../../../.gitbook/assets/immagine (31).png>)
+![](<assets/images/immagine (31).png>)
 
 1. Click on **display** on the right.
 2. Click on the **armorstand icon** on the left.
@@ -68,12 +68,12 @@ behaviours:
 <Tabs>
   <Tab title="Big furniture">
 
-![](<../../../.gitbook/assets/immagine (106).png>)
+![](<assets/images/immagine (106).png>)
 
   </Tab>
   <Tab title="Small furniture">
 
-![](<../../../.gitbook/assets/immagine (80).png>)
+![](<assets/images/immagine (80).png>)
 
   </Tab>
 </Tabs>

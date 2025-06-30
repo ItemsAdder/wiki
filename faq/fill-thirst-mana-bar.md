@@ -8,11 +8,11 @@ icon: droplet
 
 To fill the thirst bar use `/iaplayerstat write LoneDev thirst float 10`
 
-![](<../.gitbook/assets/immagine (60).png>)
+![](<assets/images/immagine (60).png>)
 
 To fill the manabar use `/iaplayerstat write LoneDev mana float 5`
 
-![](<../.gitbook/assets/immagine (95).png>)
+![](<assets/images/immagine (95).png>)
 
 ## Disable thirst
 

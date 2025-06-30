@@ -63,8 +63,8 @@ Advanced animation features
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../../.gitbook/assets/image (131).png>)
+![](<assets/images/image (131).png>)
 
 Download the [official extension](https://github.com/LoneDev6/itemsadder-entity/releases/tag/1.2.6).
 
-<img src="../../../.gitbook/assets/image (249).png" alt="" />
+<img src="assets/images/image (249).png" alt="" />

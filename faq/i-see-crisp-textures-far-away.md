@@ -11,7 +11,7 @@ Minecraft has a bug that disables mipmap if you set textures which their size is
 </Warning>
 
 
-![LEFT: without mipmap. RIGHT: with mipmap](<../.gitbook/assets/image (129).png>)
+![LEFT: without mipmap. RIGHT: with mipmap](<assets/images/image (129).png>)
 
 ## **How to fix?**
 

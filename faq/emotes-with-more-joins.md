@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # 🦴 Emotes with more joins
@@ -10,7 +10,7 @@ icon: info
 
 Emotes with multiple joints animations look <mark style="color:red;">**awful**</mark>, they ruin the Minecraft feel and remind of the cringe YouTube Minecraft animations like this:
 
-<img src="../.gitbook/assets/image (245).png" alt="" />
+<img src="assets/images/image (245).png" alt="" />
 
 
 [View here](https://www.youtube.com/watch?v=_zpodmZW65E)

@@ -45,9 +45,9 @@ The `color` property is important, it's the color that the armor will have ingam
 
 Nothing more to do. You just created a simple armor without drawing any texture!
 
-<img src="../../../.gitbook/assets/armor_items_preview_tutorial.png" alt="" />
+<img src="assets/images/armor_items_preview_tutorial.png" alt="" />
 
-<img src="../../../.gitbook/assets/armor_items_preview_tutorial_2.png" alt="" />
+<img src="assets/images/armor_items_preview_tutorial_2.png" alt="" />
 
 ## Full configuration from the previous example
 
@@ -126,6 +126,6 @@ items:
 </details>
 
 
-[Download file](../../../.gitbook/assets/myarmor_example_simple.zip)
+[Download file](assets/files/myarmor_example_simple.zip)
 
 Extract the zip into the `contents` folder of ItemsAdder

@@ -27,7 +27,7 @@ font_images:
 ```
 
 
-<img src="../../.gitbook/assets/image (7).png" alt="" />
+<img src="assets/images/image (7).png" alt="" />
 
 Access it ingame using `:image_1:` placeholder. If you have **PlaceholderAPI** you can access it using `%img_image_1%` in various places and other plugins.
 

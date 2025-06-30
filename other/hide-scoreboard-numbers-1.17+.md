@@ -9,12 +9,12 @@ icon: expand-wide
 <Tabs>
   <Tab title="After">
 
-![With ItemsAdder](<../.gitbook/assets/immagine (54).png>)
+![With ItemsAdder](<assets/images/immagine (54).png>)
 
   </Tab>
   <Tab title="Before">
 
-![Without ItemsAdder](<../.gitbook/assets/immagine (93).png>)
+![Without ItemsAdder](<assets/images/immagine (93).png>)
 
   </Tab>
 </Tabs>

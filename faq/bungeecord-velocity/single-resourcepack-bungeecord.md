@@ -57,7 +57,7 @@ After you finished configuring the hosting (follow the linked tutorial carefully
 
 For example:
 
-![](<../../.gitbook/assets/image (87).png>)
+![](<assets/images/image (87).png>)
 
 
 <Warning>

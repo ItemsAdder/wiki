@@ -14,7 +14,7 @@ You must have the [DefaultPack](../../plugin-usage/first-install.md#default-pack
 
 You can change GUI icons and use ItemsAdder icons to achieve this:
 
-![](<../../.gitbook/assets/image (110).png>)
+![](<assets/images/image (110).png>)
 
 <Tabs>
   <Tab title="config.yml">

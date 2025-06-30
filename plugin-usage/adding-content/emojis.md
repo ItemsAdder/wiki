@@ -53,23 +53,23 @@ I cannot fix that issue, it's a **Minecraft** limitation.
 
 ## In-game view
 
-![](<../../.gitbook/assets/immagine (116) (3) (2).png>)
+![](<assets/images/immagine (116) (3) (2).png>)
 
 ### Using the /e useful suggestions
 
 Write `/e` in chat, press **SPACE** and press **TAB** to start autocompleting.
 
-![](<../../.gitbook/assets/immagine (49).png>)
+![](<assets/images/immagine (49).png>)
 
-![](<../../.gitbook/assets/immagine (46).png>)
+![](<assets/images/immagine (46).png>)
 
-![](<../../.gitbook/assets/immagine (68).png>)
+![](<assets/images/immagine (68).png>)
 
 ### Using the tab autocomplete in chat
 
 Write `:` in chat and press **TAB** to start autocompleting.
 
-<img src="../../.gitbook/assets/emoji_autocomplete_chat.png" alt="" />
+<img src="assets/images/emoji_autocomplete_chat.png" alt="" />
 
 ### Example
 

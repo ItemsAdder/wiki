@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # Convert old files to v2
@@ -53,18 +53,18 @@ Do this operation only on a local test server on your PC so you won't make mista
 * Open server **plugins **folder and create a **new **folder named **ItemsAdder_old**
 * Open your **OLD **ItemsAdder folder and copy files from items folder **(see screenshot)**
 
-![](<../.gitbook/assets/image (6).png>)
+![](<assets/images/image (6).png>)
 
 * Paste the **items **folder into **ItemsAdder_old**
 
-![](<../.gitbook/assets/image (5).png>)
+![](<assets/images/image (5).png>)
 
 ## Step 3 - copy resourcepack
 
 * Create a **new **folder named **pack **inside **ItemsAdder_old **
 * Extract the exact **CONTENT **of your old resourcepack **.zip** file inside the new folder **pack**
 
-![](../.gitbook/assets/image.png)
+![](assets/images/image.png)
 
 ## Step 4 - Prepare new ItemsAdder 2.0
 

@@ -8,4 +8,4 @@ icon: info
 
 Get name of the block you're looking at in real-time.
 
-<img src="../../.gitbook/assets/wailat.png" alt="" />
+<img src="assets/images/wailat.png" alt="" />

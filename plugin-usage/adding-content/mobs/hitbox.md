@@ -11,15 +11,15 @@ icon: square-full
 Open your `.iaentitymodel` model file with **Blockbench**.\
 Create a new bone, it can have any name.
 
-![](<../../../.gitbook/assets/image (172).png>)
+![](<assets/images/image (172).png>)
 
 Resize your hitbox.
 
 
 
-![](<../../../.gitbook/assets/image (206).png>)
+![](<assets/images/image (206).png>)
 
-![](<../../../.gitbook/assets/image (61).png>)
+![](<assets/images/image (61).png>)
 
 
 <Warning>
@@ -30,9 +30,9 @@ Resize your hitbox.
 
 Rightclick on the bone and select "**Bone Config**"
 
-![](<../../../.gitbook/assets/image (150).png>)
+![](<assets/images/image (150).png>)
 
 Check the "**Hitbox**" option and press "**Confirm**".
 
-![](<../../../.gitbook/assets/image (154).png>)
+![](<assets/images/image (154).png>)
 

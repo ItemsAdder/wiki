@@ -6,7 +6,7 @@ icon: info
 
 ## Example custom font
 
-![](../../../.gitbook/assets/immagine%20%285%29.png)
+![](assets/images/immagine%20%285%29.png)
 
 To this you have to:
 

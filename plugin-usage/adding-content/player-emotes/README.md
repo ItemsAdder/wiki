@@ -44,24 +44,24 @@ This method requires **Minecraft 1.17+ clients.**\
 
 [Download Blockbench](https://www.blockbench.net/) (don't use the web app).
 
-![](<../../../.gitbook/assets/image (131).png>)
+![](<assets/images/image (131).png>)
 
 \
 [Download](https://github.com/LoneDev6/itemsadder-entity/releases) the extension file.
 
-<img src="../../../.gitbook/assets/ia-entities-download-js.png" alt="" />
+<img src="assets/images/ia-entities-download-js.png" alt="" />
 
 Then open **Blockbench** and click on File -> Plugins.
 
-![](<../../../.gitbook/assets/image (183).png>)
+![](<assets/images/image (183).png>)
 
 Click on the icon to load plugins from file, then select the file `iaentitymodel.js`.
 
-![](<../../../.gitbook/assets/image (184).png>)
+![](<assets/images/image (184).png>)
 
 Press OK
 
-![](<../../../.gitbook/assets/image (152).png>)
+![](<assets/images/image (152).png>)
 
 ## Enabling emotes
 
@@ -82,29 +82,29 @@ Create a new "`ItemsAdder Entity Model`"
 
 You can create as many as animations files you want (**ItemsAdder 3.2.1+**).
 
-<img src="../../../.gitbook/assets/ia-entities-new.png" alt="" />
+<img src="assets/images/ia-entities-new.png" alt="" />
 
 Decide if you want to create an emotes file with examples or a blank emotes file.
 
-<img src="../../../.gitbook/assets/ia-entities-new2.png" alt="" />
+<img src="assets/images/ia-entities-new2.png" alt="" />
 
 Decide a name for your emotes pack.
 
-<img src="../../../.gitbook/assets/ia-entities-new3.png" alt="" />
+<img src="assets/images/ia-entities-new3.png" alt="" />
 
 You can notice a lot of example animations on the left.
 
-![](<../../../.gitbook/assets/image (180).png>)
+![](<assets/images/image (180).png>)
 
 Delete all the emotes and edit/rename the ones you want. \
 They are useful only as base for your new emotes, to have an example to learn from.
 
-![](<../../../.gitbook/assets/image (161).png>)
+![](<assets/images/image (161).png>)
 
 Now create a new animation (emote) and save your `.iaentitymodel` project file into this folder (change `my_emotes` to your namespace, this one is an example):\
 `ItemsAdder/contents/my_emotes/resourcepack/`
 
-![](<../../../.gitbook/assets/image (205).png>)
+![](<assets/images/image (205).png>)
 
 Then continue following the tutorial to know how to export the emotes into ItemsAdder.
 
@@ -112,11 +112,11 @@ Then continue following the tutorial to know how to export the emotes into Items
 
 Click on the **ItemsAdder** tab and press **Export**.
 
-![](<../../../.gitbook/assets/image (60).png>)
+![](<assets/images/image (60).png>)
 
 You should get a success message.
 
-![](<../../../.gitbook/assets/image (66).png>)
+![](<assets/images/image (66).png>)
 
 
 <Note>
@@ -184,16 +184,16 @@ This requires ItemsAdder 3.5.0 or greater.
 
 In order to decide that you have to set this option in the **Blockbench** extension settings.
 
-[![image](../../../.gitbook/assets/emotes_advanced_1.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
+[![image](assets/images/emotes_advanced_1.png)](https://user-images.githubusercontent.com/27242001/244145963-c9ca9a77-bb79-4804-92e4-8708eac41517.png)
 
-<img src="../../../.gitbook/assets/emotes_advanced_2.png" alt="" />
+<img src="assets/images/emotes_advanced_2.png" alt="" />
 
 ### Importing elements into the scene
 
 You can import any `.bbmodel` into the scene and use it in your animation.\
 You can also import extruded textures to show items dynamically.
 
-<img src="../../../.gitbook/assets/emotes_advanced_3.png" alt="" />
+<img src="assets/images/emotes_advanced_3.png" alt="" />
 
 ### Hiding unused elements in other animations of the game `.iaentitymodel` emotes file
 
@@ -206,4 +206,4 @@ You can also import extruded textures to show items dynamically.
 Now your model won't be shown for this particular animation.\
 You can show/hide it in the middle of the animation just by doing the same thing but setting scale to 1.
 
-<img src="../../../.gitbook/assets/emotes_advanced_4.png" alt="" />
+<img src="assets/images/emotes_advanced_4.png" alt="" />

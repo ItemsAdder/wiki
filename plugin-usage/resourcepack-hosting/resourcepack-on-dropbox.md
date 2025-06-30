@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # DropBox
@@ -12,11 +12,11 @@ icon: info
 * **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
 * Press **Share**.
 
-![](<../../.gitbook/assets/immagine (99).png>)
+![](<assets/images/immagine (99).png>)
 
 * Press **Create**.
 
-![](<../../.gitbook/assets/immagine (41).png>)
+![](<assets/images/immagine (41).png>)
 
 * Press **Copy link**.
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0):

@@ -10,16 +10,16 @@ The below ZIP file contains assets that you can use for your resource page or in
 Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything though.
 
 
-[Download file](../.gitbook/assets/itemsadder_branding.zip)
+[Download file](assets/files/itemsadder_branding.zip)
 
 
 ### Preview of the zip content
 
-![logos](<../.gitbook/assets/image (142).png>)
+![logos](<assets/images/image (142).png>)
 
 ![palette](../.gitbook/assets/color_palette.jpg)
 
-![addon-banner](../.gitbook/assets/ia_addon_banner.png)
+![addon-banner](assets/images/ia_addon_banner.png)
 
 ## Usage terms
 

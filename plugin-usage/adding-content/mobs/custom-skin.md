@@ -8,7 +8,7 @@ icon: person-running
 
 You can get a [list](https://mineskin.org/gallery) of possible skins and even upload [your own](https://mineskin.org/)!
 
-![](<../../../.gitbook/assets/image (54).png>)
+![](<assets/images/image (54).png>)
 
 
 <Note>

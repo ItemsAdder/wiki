@@ -50,7 +50,7 @@ In this case your **namespace** is `my_items` so you have to put it here:
 
 `contents/my_items/textures/item/mysword.png`
 
-![](../../.gitbook/assets/image_\(14\).png)
+![](assets/images/image_\(14\).png)
 
 ### Applying the texture file to your item
 
@@ -86,9 +86,9 @@ To do that you have to:
 * (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
 * &#x20;get the item using `/iaget mysword`
 
-![](<../../.gitbook/assets/immagine (21).png>)
+![](<assets/images/immagine (21).png>)
 
-![](<../../.gitbook/assets/immagine (58).png>)
+![](<assets/images/immagine (58).png>)
 
 ## Resourcepack Hosting Tutorials
 

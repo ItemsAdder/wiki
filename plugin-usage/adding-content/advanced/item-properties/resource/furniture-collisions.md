@@ -24,4 +24,4 @@ You can make a furniture solid adding the "solid" attribute.
         solid: true
 ```
 
-![](../../../../../.gitbook/assets/image%20%2815%29.png)
+![](assets/images/image%20%2815%29.png)

@@ -39,9 +39,9 @@ This is not my fault.
 
 </details>
 
-![](../.gitbook/assets/armor_shader_bug_1.png)
+![](assets/images/armor_shader_bug_1.png)
 
-![](../.gitbook/assets/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
+![](assets/images/144463413-21137314-66a3-41de-a834-9c6063e65e83.png)
 
 
 [View here](https://youtu.be/cb8OAuQE6V0)

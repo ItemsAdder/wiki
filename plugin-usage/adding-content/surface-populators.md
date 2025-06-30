@@ -10,9 +10,9 @@ With ItemsAdder you can generate decorations around the world to make your serve
 
 For example you can make new mushrooms, new little plants, rocks and decorations.
 
-![](../../.gitbook/assets/leaves.png)
+![](assets/images/leaves.png)
 
-![](../../.gitbook/assets/desert\_rose.png)
+![](assets/images/desert\_rose.png)
 
 ## Creating a Surface Populator
 
@@ -83,4 +83,4 @@ You can download the fully working addon here:
 [View here](https://www.spigotmc.org/resources/deco-worlddeco-add-autogenerating-decorations-on-your-world-surface.95207)
 
 
-![](../../.gitbook/assets/worlddeco\_ia.png)
+![](assets/images/worlddeco\_ia.png)

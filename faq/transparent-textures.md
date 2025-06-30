@@ -18,4 +18,4 @@ resource:
   model_path: item/your_model
 ```
 
-![Example: potion bottles with semi-trasparency](../.gitbook/assets/image%20%283%29.png)
+![Example: potion bottles with semi-trasparency](assets/images/image%20%283%29.png)

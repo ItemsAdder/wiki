@@ -82,7 +82,7 @@ You also have to give the permissions to each player.
 
 Remove background
 
-<img src="../.gitbook/assets/image (30).png" alt="" />
+<img src="assets/images/image (30).png" alt="" />
 
 Permission: `ia.user.text_effect.use.noshadow`\
 Usage: `<noshadow text>`
@@ -97,54 +97,54 @@ in Minecraft **1.21.4** you can use `"shadow_color":0` attribute in JSON compone
 
 ### Rainbow
 
-![](../.gitbook/assets/rainbow.gif)
+![](assets/images/rainbow.gif)
 
-![](<../.gitbook/assets/immagine (4).png>)
+![](<assets/images/immagine (4).png>)
 
-![](<../.gitbook/assets/immagine (14).png>)
+![](<assets/images/immagine (14).png>)
 
-![](../.gitbook/assets/rainbow_item.gif)
+![](assets/images/rainbow_item.gif)
 
 Permission: `ia.user.text_effect.use.r`\
 Usage: `<r text>`
 
 ### Wobble
 
-![](../.gitbook/assets/wobble.gif)
+![](assets/images/wobble.gif)
 
-![](../.gitbook/assets/wobble_item.gif)
+![](assets/images/wobble_item.gif)
 
 Permission: `ia.user.text_effect.use.w`\
 Usage: `<w text>`
 
 ### Jump
 
-![](../.gitbook/assets/jump_chat.gif)
+![](assets/images/jump_chat.gif)
 
-![](../.gitbook/assets/jump.gif)
+![](assets/images/jump.gif)
 
-![](../.gitbook/assets/jump_boss.gif)
+![](assets/images/jump_boss.gif)
 
 Permission: `ia.user.text_effect.use.j`\
 Usage: `<j text>`
 
 ### Rainbow + Wobble
 
-![](../.gitbook/assets/rw_chat.gif)
+![](assets/images/rw_chat.gif)
 
 Permission: `ia.user.text_effect.use.rw`\
 Usage: `<rw text>`
 
 ### Rainbow + Jump
 
-![](../.gitbook/assets/rj.gif)
+![](assets/images/rj.gif)
 
 Permission: `ia.user.text_effect.use.rj`\
 Usage: `<rj text>`
 
 ### Blinking
 
-<img src="../.gitbook/assets/blinking.webp" alt="" />
+<img src="assets/images/blinking.webp" alt="" />
 
 Permission: `ia.user.text_effect.use.b`\
 Usage: `<b text>`
@@ -160,15 +160,15 @@ Usage: `<b text>`
 * Prefix-Suffix (Luckperms for example)
 * _More soon...._
 
-![](../.gitbook/assets/rainbow_wobble_lore.gif)
+![](assets/images/rainbow_wobble_lore.gif)
 
 ## How to create animated prefix (Luckperms)
 
-![](<../.gitbook/assets/immagine (53).png>)
+![](<assets/images/immagine (53).png>)
 
 `/lp group admin meta setprefix "<rw ADMIN >"`
 
-![](../.gitbook/assets/prefix.gif)
+![](assets/images/prefix.gif)
 
 Click here to read[ Luckperms official tutorials](https://luckperms.net/wiki/Prefixes,-Suffixes-&-Meta) if you don't know how prefix works.
 

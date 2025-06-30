@@ -31,7 +31,7 @@ items:
 
 Create the required files into `contents/test_tooltip/textures/tooltip/`.
 
-<img src="../../.gitbook/assets/image (9).png" alt="" />
+<img src="assets/images/image (9).png" alt="" />
 
 
 <Note>
@@ -41,7 +41,7 @@ Tooltip support animated textures (`.png.mcmeta` files).
 
 Run `/iazip` and then get the item ingame.
 
-<img src="../../.gitbook/assets/image (8).png" alt="" />
+<img src="assets/images/image (8).png" alt="" />
 
 ## Old method
 

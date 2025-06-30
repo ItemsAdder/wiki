@@ -9,7 +9,7 @@ This section can be added in all and any of your `.yml` files for better organiz
 
 ## 3x3 recipe
 
-![](<../../.gitbook/assets/immagine (13).png>)
+![](<assets/images/immagine (13).png>)
 
 ```yaml
 info:
@@ -35,9 +35,9 @@ In this example I created a `crafting_table` recipe called `deadmau5_hat`.
 
 ## 2x2 recipe
 
-![](<../../.gitbook/assets/immagine (39).png>)
+![](<assets/images/immagine (39).png>)
 
-<img src="../../.gitbook/assets/image (95).png" alt="" />
+<img src="assets/images/image (95).png" alt="" />
 
 ### Method 1
 
@@ -128,7 +128,7 @@ turquoise_sword:
 
 For example this is the `peeled_potato` recipe. This is a special recipe which uses a knife as ingredient of the crafting (and a potato) and decrements its durability when player crafts one peeled potato without making it disappear.
 
-![](<../../.gitbook/assets/image (134).png>)
+![](<assets/images/image (134).png>)
 
 As you can see you can also play a sound using `play_sound`.
 
@@ -146,6 +146,6 @@ shapeless_emerald_example:
     amount: 1
 ```
 
-<img src="../../.gitbook/assets/emerald_shapeless_2.png" alt="" />
+<img src="assets/images/emerald_shapeless_2.png" alt="" />
 
-<img src="../../.gitbook/assets/emerald_shapeless_1.png" alt="" />
+<img src="assets/images/emerald_shapeless_1.png" alt="" />

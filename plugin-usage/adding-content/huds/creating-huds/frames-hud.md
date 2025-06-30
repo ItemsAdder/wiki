@@ -100,7 +100,7 @@ Now you have to create one image file for each of the ones we have specified in 
 
 Create them in this path (as set in the configuration) `contents\myitems\resourcepack\myitems\textures\example_hud\`
 
-![](<../../../../.gitbook/assets/image (186).png>)
+![](<assets/images/image (186).png>)
 
 Done!
 
@@ -108,11 +108,11 @@ Done!
 
 To see the HUD in action you just have to run `/iazip` (and follow the [hosting tutorial](../../../resourcepack-hosting/) if needed) to start seeing the new HUD ingame.
 
-![](<../../../../.gitbook/assets/image (85).png>)
+![](<assets/images/image (85).png>)
 
 Now try to write this command (change `LoneDev` to your player name) to change the HUD value: `/iaplayerstat write LoneDev example_stat float 2`
 
-![](<../../../../.gitbook/assets/image (193).png>)
+![](<assets/images/image (193).png>)
 
 As you can see the HUD value changed to 2! Very good!
 

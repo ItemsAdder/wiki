@@ -16,4 +16,4 @@ This is a known issue and cannot be fixed easily without making the plugin lag t
 [View here](https://github.com/PluginBugs/Issues-ItemsAdder/issues/616)
 
 
-![](../../.gitbook/assets/immagine%20%2839%29.png)
+![](assets/images/immagine%20%2839%29.png)

@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: edit
 ---
 
 # Iris
@@ -37,9 +37,9 @@ Then edit the layers settings to use a custom block, in this example the custom 
 
 This will generate a similar result:
 
-![](<../../.gitbook/assets/image (164).png>)
+![](<assets/images/image (164).png>)
 
-![](<../../.gitbook/assets/image (143).png>)
+![](<assets/images/image (143).png>)
 
 ## Compatibility issues
 

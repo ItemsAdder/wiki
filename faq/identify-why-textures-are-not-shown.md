@@ -49,11 +49,11 @@ You can clearly see which files failed to load and why, the errors are clear in 
 
 Enable output log
 
-![](<../.gitbook/assets/immagine (52).png>)
+![](<assets/images/immagine (52).png>)
 
 Join the server and read the log
 
-![](<../.gitbook/assets/immagine (61).png>)
+![](<assets/images/immagine (61).png>)
 
 You can clearly see which files failed to load and why. The errors are clear in most of the cases.
 

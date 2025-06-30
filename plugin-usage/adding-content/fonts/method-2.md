@@ -12,7 +12,7 @@ icon: info
 
 ## Example font
 
-![](<../../../.gitbook/assets/immagine (23).png>)
+![](<assets/images/immagine (23).png>)
 
 
 <Note>

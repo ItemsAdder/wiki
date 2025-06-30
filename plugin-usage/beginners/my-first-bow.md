@@ -17,7 +17,7 @@ I **advise** you to use **self-host** which is **easier** and **faster**, but yo
 <Warning>
 It is very important to set the textures/models to your bow item correctly, or you will get missing texture.
 
-<img src="../../.gitbook/assets/bow_without_item_states.gif" alt="" data-size="original" />
+<img src="assets/images/bow_without_item_states.gif" alt="" data-size="original" />
 </Warning>
 
 
@@ -46,13 +46,13 @@ The bow animates as you pull it, this allows you to have a single texture for ea
 
 `contents/myitems/textures/item/`
 
-<div align="left"><img src="../../.gitbook/assets/image (2) (1).png" alt="" /></div>
+<div align="left"><img src="assets/images/image (2) (1).png" alt="" /></div>
 
 * `_0` - First pulling state
 * `_1` - Second pulling state
 * `_2` - Third pulling state
 
-<img src="../../.gitbook/assets/bow.webp" alt="" />
+<img src="assets/images/bow.webp" alt="" />
 
 ## Bow with 3D `.json` models
 
@@ -79,7 +79,7 @@ items:
 
 
 
-<div align="left"><img src="../../.gitbook/assets/image (5).png" alt="" /></div>
+<div align="left"><img src="assets/images/image (5).png" alt="" /></div>
 
 * `_0` - First pulling state
 * `_1` - Second pulling state
@@ -87,12 +87,12 @@ items:
 
 Open your models files and update the textures paths. As you can see I updated the namespace.
 
-<img src="../../.gitbook/assets/image (4).png" alt="" />
+<img src="assets/images/image (4).png" alt="" />
 
 Move your textures into the correct namespace, in this case `myitems`.
 
 `contents/myitems/textures/item/`
 
-<img src="../../.gitbook/assets/image (6).png" alt="" />
+<img src="assets/images/image (6).png" alt="" />
 
-<img src="../../.gitbook/assets/bow2 (1).webp" alt="" />
+<img src="assets/images/bow2 (1).webp" alt="" />

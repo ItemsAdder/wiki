@@ -14,7 +14,7 @@ Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert y
 
 Remember to set "Change audio channels" to MONO or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
 
-<img src="../../.gitbook/assets/audio_mono.png" alt="" data-size="original" />
+<img src="assets/images/audio_mono.png" alt="" data-size="original" />
 </Warning>
 
 

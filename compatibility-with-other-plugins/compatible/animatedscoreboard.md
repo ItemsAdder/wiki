@@ -20,7 +20,7 @@ You can use [font\_images ](../../plugin-usage/adding-content/font-images.md)(em
 
 `%img_smile%` will show like that:
 
-![](../../.gitbook/assets/animatedscoreboard_1.png)
+![](assets/images/animatedscoreboard_1.png)
 
 ## Hide the scoreboard background
 
