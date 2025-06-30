@@ -7,14 +7,19 @@
     "light": "#8d41b6",
     "dark": "#8d41b6"
   },
+  "background": {
+    "color": {
+      "dark": "#1d1d1d"
+    }
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Wiki",
         "groups": [
           {
-            "group": "Table of contents",
+            "group": "Information",
             "pages": [
               "index",
               {
@@ -360,7 +365,7 @@
               },
               "plugin-usage/permissions",
               "plugin-usage/merge-resourcepacks",
-              "plugin-usage/ia",
+              "plugin-usage/recipes-menu",
               "plugin-usage/resourcepack-prompt-message",
               "plugin-usage/text-effects",
               "plugin-usage/text-formatting",
