@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Magic wand
 
 
@@ -174,4 +178,3 @@
             name: mana
             amount: 5
 ```
-

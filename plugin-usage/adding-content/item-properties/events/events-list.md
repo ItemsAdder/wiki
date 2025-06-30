@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Events List
 
 ## Events

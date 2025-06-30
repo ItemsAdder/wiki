@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # ItemsAdder internal
 
 ## Creating your fist mob
@@ -208,4 +212,3 @@ You have to use the `spawn_another` property.
             time:
               start: MIDNIGHT
 ```
-

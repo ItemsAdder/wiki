@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # DeluxeMenu
 
 To show an ItemsAdder item with custom texture on **DeluxeMenu** you can add this to your material

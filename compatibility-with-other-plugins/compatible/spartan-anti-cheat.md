@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Spartan Anti Cheat
 
 
@@ -8,4 +12,3 @@ The Geyser (Bedrock edition) version of Spartan Anticheat is not guaranteed to b
 
 * [Download the plugin](https://builtbybit.com/resources/spartan-anticheat.11196/)
 * [Discord support server](https://spartan.top/discord)
-

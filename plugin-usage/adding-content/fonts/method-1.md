@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # TTF font
 
 This method allows you to add fonts using .ttf font files
@@ -19,4 +23,3 @@ Minecraft has a bug that will make the game crash when using custom TTF fonts.
 
 This happens only on some Intel integrated GPUs and old versions of the game, I can't fix this bug, [read more here](https://bugs.mojang.com/browse/MC-180529?jql=text%20~%20%22ttf%20crash%22).
 </Warning>
-

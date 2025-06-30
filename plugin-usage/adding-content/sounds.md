@@ -1,2 +1,5 @@
-# Sounds
+---
+icon: info
+---
 
+# Sounds

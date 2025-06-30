@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Furniture collisions
 
 ### How can I make a furniture solid?
@@ -21,4 +25,3 @@ You can make a furniture solid adding the "solid" attribute.
 ```
 
 ![](../../../../../.gitbook/assets/image%20%2815%29.png)
-

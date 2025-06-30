@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Sounds
 
 Switch to "**Animate**" view.

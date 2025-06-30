@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Animations
 
 ## How to create an animation

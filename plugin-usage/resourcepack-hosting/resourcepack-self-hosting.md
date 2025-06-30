@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Self hosting
 
 
@@ -138,4 +142,3 @@ self-host:
   pack-port: 25650
   append-port: false
 ```
-

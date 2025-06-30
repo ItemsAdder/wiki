@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # (old) Simple Armor
 
 

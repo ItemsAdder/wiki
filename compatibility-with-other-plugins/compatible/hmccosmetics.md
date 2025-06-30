@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # HMCCosmetics
 
 ## HMCCosmetics

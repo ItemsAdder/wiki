@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ExcellentEnchants
 
 [Download here](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
@@ -32,4 +36,3 @@ So you should write the lore on your own.
 ```
 
 In this case I set `tunnel` enchant with level 1
-

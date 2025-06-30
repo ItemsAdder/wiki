@@ -1,2 +1,5 @@
-# DecentHolograms
+---
+icon: info
+---
 
+# DecentHolograms

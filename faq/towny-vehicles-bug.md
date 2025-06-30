@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Towny vehicles bug
 
 
@@ -9,4 +13,3 @@ If you have problems with vehicles and you're using Towny plugin open Towny conf
 ```yaml
 town_mob_removal_entities: Monster,Flying,Shulker,SkeletonHorse,ZombieHorse
 ```
-

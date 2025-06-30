@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # CustomCrafting
 
 ## [Download here](https://www.spigotmc.org/resources/55883/)

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Can I create slabs, stairs, tridents, armors...
 
 ### Placeable
@@ -29,7 +33,3 @@ You can make them colored but you cannot change the texture.
 
 
 [See page](../plugin-usage/adding-content/creating-a-custom-item/armor.md)
-
-
-
-

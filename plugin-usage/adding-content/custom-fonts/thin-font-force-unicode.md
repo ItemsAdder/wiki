@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Thin font \(force unicode\)
 
 ## Thin font
@@ -41,5 +45,3 @@ Check [Resourcepack tutorials](../../resourcepack-hosting/)
 <Note>
 Now you can see the "thin font" and GUIs, emojis, HUDs won't break \(bugged white squares\)
 </Note>
-
-

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Fix blocks problem
 
 
@@ -26,4 +30,3 @@ After applying this change you won't be able to create ItemsAdder blocks with ty
 
 Other ItemsAdder custom block types will still work (for example REAL\_NOTE).
 </Note>
-

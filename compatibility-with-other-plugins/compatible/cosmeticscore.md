@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # CosmeticsCore
 
 
@@ -32,4 +36,3 @@ Update ItemsAdder to 3.3.0+
 
 
 [View here](https://cosmeticscore.devs.beer/first-install/install-base-resourcepack/itemsadder)
-

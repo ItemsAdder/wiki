@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Iris
 
 ## [Download here](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)

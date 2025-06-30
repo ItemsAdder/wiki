@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Space
 
 ## [Download here](https://www.spigotmc.org/resources/space.59572/)

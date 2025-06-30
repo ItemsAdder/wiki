@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ItemBridge
 
 ## [Download here](https://www.spigotmc.org/resources/77080/)
@@ -28,7 +32,3 @@ It's important to add `ia:` in front of the ItemsAdder custom item name or **Ite
 
 In this case `itemsadder:ruby_sword` must be specified as `ia:itemsadder:ruby_sword`.
 </Warning>
-
-
-
-

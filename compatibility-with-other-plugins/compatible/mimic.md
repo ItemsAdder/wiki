@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Mimic
 
 ## [Download here](https://github.com/EndlessCodeGroup/Mimic)

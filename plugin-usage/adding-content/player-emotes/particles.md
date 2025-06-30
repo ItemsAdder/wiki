@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Particles
 
 ### Configure the special particle location bone

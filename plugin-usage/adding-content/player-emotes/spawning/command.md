@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Command
 
 
@@ -45,4 +49,3 @@ custom-skin.md
 <Card title="Broken link" icon="text" href="/broken-reference/">
 Broken link
 </Card>
-

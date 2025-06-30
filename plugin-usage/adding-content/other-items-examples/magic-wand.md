@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Magic wand
 
 ## Example addon

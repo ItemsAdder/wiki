@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # CMI
 ## Ranks
 

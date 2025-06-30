@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Graves
 
 ## [Graves Legacy Download here](https://www.spigotmc.org/resources/graves.74208/)

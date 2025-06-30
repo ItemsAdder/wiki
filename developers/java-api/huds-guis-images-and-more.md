@@ -1,3 +1,7 @@
+---
+icon: question
+---
+
 # HUDs, GUIs, images and more
 
 To see how to use HUDs and GUIs API (Font Images) you can check my examples.

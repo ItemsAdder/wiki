@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Custom fonts
 
 ## Example custom font
@@ -10,4 +14,3 @@ To this you have to:
 * extract contents into `plugins\ItemsAdder\contents\japanese_font\resourcepack\assets\minecraft\font`
 * open config.yml and set `custom-font enabled: true`
 * and obviously if you're using [dropbox host](../../resourcepack-hosting/resourcepack-on-dropbox.md) you have to reupload the `generated.zip` after server restart
-

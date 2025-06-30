@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # DropBox
 
 ## Text tutorial
@@ -63,4 +67,3 @@ resourcepack-self-hosting.md
 <Card title="first-install.md" icon="text" href="/../first-install.md/">
 first-install.md
 </Card>
-

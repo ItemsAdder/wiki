@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # Expert users
 
 ## Installing the required dependencies

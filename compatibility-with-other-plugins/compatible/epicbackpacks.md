@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # EpicBackpacks
 
 ## [Download the backpack plugin here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)

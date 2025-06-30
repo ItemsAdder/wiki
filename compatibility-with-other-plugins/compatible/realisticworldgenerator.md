@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # RealisticWorldGenerator
 
 ## [Download here](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
@@ -83,6 +87,3 @@ one_biome:
 This is a world with a custom surface
 
 ![](<../../.gitbook/assets/image (192).png>)
-
-
-

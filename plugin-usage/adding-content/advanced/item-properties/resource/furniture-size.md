@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Furniture size
 
 ## How can I adjust the furniture position when placed?
@@ -52,5 +56,3 @@ behaviours:
 
   </Tab>
 </Tabs>
-
-

@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # SkinsRestorer
 
 ## [Download here](https://www.spigotmc.org/resources/skinsrestorer.2124/)

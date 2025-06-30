@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # PNG font (easier)
 
 
@@ -26,4 +30,3 @@ To this you have to:
 <Card title="resourcepack-hosting" icon="text" href="/../resourcepack-hosting/">
 resourcepack-hosting
 </Card>
-

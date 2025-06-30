@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # Google Drive
 
 
@@ -74,4 +78,3 @@ This method works 100% of the time on Minecraft 1.17.1+.
 <Card title="first-install.md" icon="text" href="/../first-install.md/">
 first-install.md
 </Card>
-

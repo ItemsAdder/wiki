@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # Usage
 
 ## Getting the API

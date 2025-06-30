@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Edit the English wiki
 
 ## How to edit this wiki?
@@ -56,4 +60,3 @@ You can keep track of changes in the Discord notification channel.
 
 ![](<../.gitbook/assets/image (185).png>)
 </Note>
-

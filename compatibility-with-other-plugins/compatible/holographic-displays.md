@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Holographic Displays
 
 ## How to use emojis in hologram

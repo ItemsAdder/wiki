@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Translate this wiki
 
 ## How to translate this wiki?
@@ -67,4 +71,3 @@ You can keep track of changes in the Discord notification channel.
 
 ![](<../.gitbook/assets/image (185).png>)
 </Note>
-

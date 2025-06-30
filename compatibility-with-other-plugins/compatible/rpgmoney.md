@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # RPGMoney
 
 ## [Download Here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)

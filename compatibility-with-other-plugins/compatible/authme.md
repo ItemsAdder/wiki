@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Authme
 
 ## [Download here](https://www.spigotmc.org/resources/authmereloaded.6269/)
@@ -24,4 +28,3 @@ onLogin:
 <Warning>
 Make sure that there is **only one onLogin setting** in the configuration file.
 </Warning>
-

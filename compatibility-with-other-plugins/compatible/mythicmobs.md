@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Mythicmobs
 
 ### [Download here](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
@@ -54,4 +58,3 @@ SkeletalKnight:
 <Card title="advanced-method.md" icon="text" href="/../../plugin-usage/adding-content/mobs/advanced-method.md/">
 advanced-method.md
 </Card>
-

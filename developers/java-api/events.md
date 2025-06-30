@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Events
 
 ### ItemsAdderLoadDataEvent
@@ -19,4 +23,3 @@ This event includes **URL**, **hash** and also contains info if **it's** an **It
 
 
 [View here](https://github.com/LoneDev6/API-ItemsAdder/tree/master/src/main/java/dev/lone/itemsadder/api/Events)
-

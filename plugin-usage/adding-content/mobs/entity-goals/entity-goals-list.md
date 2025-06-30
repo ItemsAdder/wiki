@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Entity Goals List
 
 ## Entity Goals

@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Scoreboard-revision
 
 ## ​[Download here](https://www.spigotmc.org/resources/scoreboard.14754/)​

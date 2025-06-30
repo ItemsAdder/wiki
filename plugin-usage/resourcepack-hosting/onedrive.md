@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # OneDrive
 
 
@@ -51,4 +55,3 @@ This can cause your players to be stuck on login phase if the URL is not valid o
 <Card title="first-install.md" icon="text" href="/../first-install.md/">
 first-install.md
 </Card>
-

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # TrMenu
 
 ### Plugin download
@@ -37,4 +41,3 @@ Read more here:&#x20;
 <Card title="Broken link" icon="text" href="/broken-reference/">
 Broken link
 </Card>
-

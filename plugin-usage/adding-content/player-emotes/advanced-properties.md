@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Advanced properties
 
 You can also specify some special properties for your emotes.\

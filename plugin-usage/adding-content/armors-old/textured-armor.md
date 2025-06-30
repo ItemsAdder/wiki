@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # (old) Textured Armor
 
 
@@ -332,4 +336,3 @@ Extract the zip into the `contents` folder of ItemsAdder
 `armors_rendering` was renamed to `legacy_armor_renderings` in ItemAdder 4.0.9.\
 The old property still works to maintain compatibility.
 </Warning>
-

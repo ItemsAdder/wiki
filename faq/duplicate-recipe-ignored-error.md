@@ -1,3 +1,7 @@
+---
+icon: alert
+---
+
 # "Duplicate recipe ignored" error
 
 If you get an error similar to this, please update your Paper or Spigot to LATEST version. If it's 1.14.4 version doesn't mean it's updated, you have to download the very latest version of it.
@@ -25,4 +29,3 @@ at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:37
 at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:449) [minecraft_server.jar:git-Spigot-9de398a-9c887d4]
 at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:258) [minecraft_server.jar:git-Spigot-9de398a-9c887d4]
 ```
-

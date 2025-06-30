@@ -1,3 +1,7 @@
+---
+icon: alert
+---
+
 # Blockbench Errors
 
 ## Strange errors

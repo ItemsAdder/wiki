@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Armors animation and emission not working
 
 

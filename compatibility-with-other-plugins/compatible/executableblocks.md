@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ExecutableBlocks
 
 More info: [https://docs.ssomar.com/executableblocks/compatible-plugins#itemsadder](https://docs.ssomar.com/executableblocks/compatible-plugins#itemsadder)
@@ -10,4 +14,3 @@ Free: [https://www.spigotmc.org/resources/custom-blocks-free-executable-blocks.9
 <Warning>
 Not tested
 </Warning>
-

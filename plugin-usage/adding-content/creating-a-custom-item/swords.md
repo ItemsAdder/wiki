@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Swords
 
 
@@ -31,7 +35,3 @@ items:
 
 
 [See page](../item-properties/resource/)
-
-
-
-

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Armor leather texture looks like metal
 
 ## Leather layers keep getting overwritten by ItemsAdder
@@ -38,4 +42,3 @@ disable-overwrite-leather-armor-layers-textures: true # Set it to true not FALSE
 
   </Tab>
 </Tabs>
-

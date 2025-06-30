@@ -1,2 +1,5 @@
-# ➡ Updating from 1.0
+---
+icon: info
+---
 
+# ➡ Updating from 1.0

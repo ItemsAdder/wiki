@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ExecutableItems
 
 ## [Download here](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)

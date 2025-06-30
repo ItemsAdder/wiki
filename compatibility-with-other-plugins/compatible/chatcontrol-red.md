@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ChatControl-Red
 
 [Download here](https://www.mc-market.org/resources/18217/)

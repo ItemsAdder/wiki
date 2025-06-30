@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Custom Arrows
 
 ## Some examples \(ItemsAdder 2.2.8+\)
@@ -82,4 +86,3 @@ items:
           play_effect:
             name: ENDERDRAGON_SHOOT
 ```
-

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # InteractiveChat
 
 ### Tested and compatible with

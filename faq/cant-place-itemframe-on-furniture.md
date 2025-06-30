@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Can't place itemframe on furniture
 
 

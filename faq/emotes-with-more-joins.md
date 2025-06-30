@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # 🦴 Emotes with more joins
 
 ## Why can't emotes have more joints?

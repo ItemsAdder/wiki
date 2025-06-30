@@ -1,3 +1,7 @@
+---
+icon: edit
+---
+
 # Using MythicMobs
 
 ## How to make MythicMobs handle my custom mob
@@ -62,7 +66,3 @@ Example:
 <Warning>
 Remember to set `reason: CUSTOM` or it won't work as MythicMobs sets the spawn reson to `CUSTOM` and not `NATURAL`.
 </Warning>
-
-
-
-

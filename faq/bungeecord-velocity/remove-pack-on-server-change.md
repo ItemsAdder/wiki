@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Remove pack on server change
 
 ## Remove the resourcepack when the player changes server
@@ -20,4 +24,3 @@ resource-pack=http://your_url/blank_pack.zip
 Done!
 
 The ItemsAdder resourcepack will be replaced by the default resourcepack when the player joins your other server.
-

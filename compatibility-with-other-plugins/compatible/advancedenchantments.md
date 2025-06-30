@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # AdvancedEnchantments
 
 ## [Download here](https://www.spigotmc.org/resources/43058/)
@@ -45,4 +49,3 @@ This has a downside though.\
 You won't be able to use custom armors texture in the [Armor Set](https://ae.advancedplugins.net/configuration/armor-sets) feature of **AdvancedEnchantments** because of how they hook into my plugin.\
 There is nothing I can do.
 </Warning>
-

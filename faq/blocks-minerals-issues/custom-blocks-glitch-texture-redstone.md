@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Custom blocks glitch texture \(redstone\)
 
 ## Placing Redstone on top of custom blocks can make them update and revert to Mushroom Blocks
@@ -13,4 +17,3 @@ This is a known issue and cannot be fixed easily without making the plugin lag t
 
 
 ![](../../.gitbook/assets/immagine%20%2839%29.png)
-

@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Custom Arrows
 
 ## Some examples

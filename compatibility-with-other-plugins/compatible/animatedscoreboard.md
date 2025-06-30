@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # AnimatedScoreboard
 
 ## [Download here](https://www.spigotmc.org/resources/animatedscoreboard.20848/)

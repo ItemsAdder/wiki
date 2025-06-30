@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # ClueScrolls
 
 ### [Polymart Download](https://polymart.org/resource/cluescrolls.906)

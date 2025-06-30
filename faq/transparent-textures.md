@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # Create transparent textured furnitures
 
 
@@ -15,4 +19,3 @@ resource:
 ```
 
 ![Example: potion bottles with semi-trasparency](../.gitbook/assets/image%20%283%29.png)
-

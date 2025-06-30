@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # DecentHolograms
 
 ## [Download here](https://www.spigotmc.org/resources/96927/)
@@ -14,4 +18,3 @@
 When creating a hologram can you provide `#ICON: <item> {CustomModelData: <cmd>}` as the very first line in `/dh create`.  
 Example: `/dh create example #ICON: IRON_INGOT {CustomModelData: 10000}`
 </Note>
-

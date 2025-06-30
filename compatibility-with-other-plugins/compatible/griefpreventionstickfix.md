@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # GriefPreventionStickFix
 
 ## [Download Here](https://www.spigotmc.org/resources/griefpreventionstickfix.76015/)

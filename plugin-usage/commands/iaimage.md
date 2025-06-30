@@ -1,3 +1,7 @@
+---
+icon: info
+---
+
 # iaimage
 
 This command shows you a list of all the font images (for example emojis) that are available to be used in chat/commands/signs/books.
@@ -30,4 +34,3 @@ It's advised to set `max-line-length: 22`, this allows long texts to use the who
 The plugin should avoid too long texts to overflow and go to the next line, but if that happens you have to reduce the length value to `20` or lower.
 
 <img src="../../.gitbook/assets/iaimage_book_2.png" alt="" />
-

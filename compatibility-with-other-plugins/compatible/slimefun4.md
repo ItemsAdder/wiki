@@ -1,3 +1,7 @@
+---
+icon: cog
+---
+
 # Slimefun4
 
 ## [Download here](https://github.com/Slimefun/Slimefun4#download-slimefun-4)
