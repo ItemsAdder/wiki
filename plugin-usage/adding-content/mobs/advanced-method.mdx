@@ -1,0 +1,138 @@
+---
+icon: file-plus
+---
+
+# Entity Creation
+
+## Creating a new model
+
+Create a new ItemsAdder entity model.
+
+<img src="/assets/images/image (250).png" />
+
+Set project type `Custom Entity` and decide a `namespace` + `id`.
+
+<img src="/assets/images/image (251).png" />
+
+Immediately save the project into the **ItemsAdder** `contents` folder, under the **namespace** folder (in this example `mymobs`).
+
+<img src="/assets/images/image (252).png" />
+
+<img src="/assets/images/image (254).png" />
+
+Start modelling.
+
+<img src="/assets/images/image (255).png" />
+
+Create some animations.\
+You should follow some tutorials and learn to use Blockbench, there are a [lot of tutorial on Youtube](https://www.youtube.com/results?search_query=blockbench+animation+tutorial).
+
+<img src="/assets/images/image (259).png" />
+
+Before exporting make sure that the settings are correct.
+
+<img src="/assets/images/image (257).png" />
+
+<img src="/assets/images/image (256).png" />
+
+Export the model.
+
+<img src="/assets/images/image (258).png" />
+
+## Converting an existing model
+
+
+<Warning>
+Remember to make a <mark>**backup**</mark> of your `.bbmodel` file before using this tool!
+</Warning>
+
+
+Open your `.bbmodel` project with Blockbench, then click on File -> Convert Project
+
+![](</assets/images/image (215).png>)
+
+![](</assets/images/image (58).png>)
+
+Select **`ItemsAdder Entity Model`** in the **Format** setting, then press **Confirm**.
+
+Now save the new converted model file in a new folder where you will put only this file.
+
+You will have something like that:
+
+![](</assets/images/image (182).png>)
+
+### Saving the project
+
+Now create a new folder inside `ItemsAdder/contents/`, it's your namespace folder. For example mine is `custom`, so the path is `ItemsAdder/contents/custom/`.
+
+Save the project file `.iaentitymodel` into your ItemsAdder namespace folder, in this example into `contents/custom/`.
+
+### Configuring the model
+
+Now you can configure your model based on your preferences. The ItemsAdder extension automatically decided some settings for you but you might need to change them.\
+Click on the **ItemsAdder** tab and press **Settings**.
+
+![](</assets/images/image (220).png>)
+
+Here you have to decide a namespace for your custom entities.\
+The default one is `custom`, but you should decide your own, for example `my_entities`, `hell_mobs`, `npcs`...
+
+![](</assets/images/image (69).png>)
+
+The other thing you might need to change is the "**Model Scaling Mode**":
+
+* Max Model size provides 7x7x7 block wide models but limits scaling to shrinking only.
+* Max Scaling range provides shrinking and growing up to 3.125x in size, but limits the maximum model size to 3x3x3 blocks
+
+Change "**Max Model Size**" only if you have animated the size of some bones.
+
+![](</assets/images/image (170).png>)
+
+### Export the model
+
+Click on the **ItemsAdder** tab and press **Export**.
+
+![](</assets/images/image (179).png>)
+
+You should get a success message.
+
+![](</assets/images/image (66).png>)
+
+### Creating the ingame entity configuration
+
+As you can see the extension created a file automatically, called `custom_entity_NAME.yml`. It will create it only on the first export.
+
+You can customize it with more properties if needed.
+
+
+```yaml barman_robot.yml lines icon="yaml"
+info:
+  namespace: custom
+entities:
+  barman_robot:
+    display_name: "Barman Robot"
+    type: ZOMBIE
+    model_folder: entity/barman_robot
+    silent: true
+    can_sun_burn: false
+    speed:
+      movement: 1
+      flying: 0
+    max_health: 20
+```
+
+
+In this example my custom entity will use a ZOMBIE as base entity for its AI.\
+You can use any living entity as base entity, depending on your needs.
+
+### Summoning the entity
+
+Use the summon command: `/iaentity summon <entity>`
+
+## Notes
+
+
+<Note>
+Do not create too many bones, keep the model simple, remember this is a blocky pixelated game, use [its style](advanced-method/broken-reference/).
+</Note>
+

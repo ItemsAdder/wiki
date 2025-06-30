@@ -10,11 +10,11 @@ Use[ this website](https://audio.online-convert.com/convert-to-ogg) to convert y
 
 
 <Warning>
-### IMPORTANT
+IMPORTANT
 
 Remember to set "Change audio channels" to MONO or you will experience [audio problems](https://bugs.mojang.com/browse/MC-146721)
 
-<img src="assets/images/audio_mono.png" alt="" data-size="original" />
+<img src="/assets/images/audio_mono.png" data-size="original" />
 </Warning>
 
 
@@ -24,7 +24,7 @@ Remember to set "Change audio channels" to MONO or you will experience [audio pr
 
 
 <Warning>
-## This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
+This requires ItemsAdder 4.0.12 or greater. Scroll down for older versions.
 </Warning>
 
 
@@ -51,7 +51,7 @@ sounds:
 #### Jukebox song (Minecraft 1.21.1 and greater)
 
 
-<Card title="jukebox-disc.md" icon="text" href="/jukebox-disc.md/">
+<Card title="jukebox-disc.md" icon="text" href="/jukebox-disc">
 jukebox-disc.md
 </Card>
 
@@ -110,10 +110,11 @@ Keep in mind that you have to change `my_sounds` to your own namespace name if i
 </Warning>
 
 
-<pre class="language-javascript"><code class="lang-javascript">"sounds":[
-<strong>    "my_sounds:music/song_1"
-</strong>]
-</code></pre>
+```javascript
+"sounds":[
+    "my_sounds:music/song_1"
+]
+```
 
 For example if you want to have random sounds for the same sound name you just have to create multiple `.ogg` files and put them like this:
 

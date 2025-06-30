@@ -1,7 +1,3 @@
----
-description: ""
----
-
 # OneDrive
 
 
@@ -12,15 +8,15 @@ description: ""
 
 ### Step 1
 
-![](<assets/images/image (65).png>)
+![](</assets/images/image (65).png>)
 
 ### Step 2
 
-![](<assets/images/image (208).png>)
+![](</assets/images/image (208).png>)
 
 ### Step 3
 
-![](<assets/images/image (116).png>)
+![](</assets/images/image (116).png>)
 
 ### Step 4
 
@@ -52,6 +48,6 @@ This can cause your players to be stuck on login phase if the URL is not valid o
 ## Continue installation if you need
 
 
-<Card title="first-install.md" icon="text" href="/../first-install.md/">
+<Card title="first-install.md" icon="text" href="/first-install">
 first-install.md
 </Card>

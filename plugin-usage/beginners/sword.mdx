@@ -1,0 +1,100 @@
+---
+icon: sword
+---
+
+# My First Sword
+
+
+<Warning>
+**Resourcepack hosting**
+
+Remember to **decide** a [**resourcepack hosting**](../resourcepack-hosting/) method **before** you **start**.\
+I **advise** you to use **self-host** which is **easier** and **faster**, but you can also use **Dropbox** and similar
+</Warning>
+
+
+## Creating the swords file config
+
+
+<Warning>
+This is an example sword (remember to change `my_items` namespace to the one you want).
+</Warning>
+
+
+For example I created a **file** which will contain all my **custom swords**:\
+`contents/my_items/configs/myswords.yml`
+
+In this file (`myswords.yml`) I start creating a simple sword called `mysword`
+
+
+```yaml contents/my_items/configs/myswords.yml lines icon="yaml"
+info:
+  namespace: my_items
+items:
+  mysword:
+    display_name: My Sword
+    permission: myitems.mysword
+    durability:
+      max_custom_durability: 1324
+```
+
+
+## Item texture
+
+### Creating the texture file
+
+Now the fun part, let's set the sword texture.\
+To do that you have to put your sword `.png` texture file inside the correct folder.
+
+In this case your **namespace** is `my_items` so you have to put it here:
+
+`contents/my_items/textures/item/mysword.png`
+
+![](assets/images/image_\(14\).png)
+
+### Applying the texture file to your item
+
+Now open `myswords.yml` file again and add the `resource` part as I did.\
+As you can see I set `generate: true` and I set the textures for the item.\
+This tells the plugin to generate the 3D model automatically using your texture.
+
+
+```yaml contents/my_items/configs/myswords.yml lines icon="yaml"
+info:
+  namespace: myitems
+items:
+  mysword:
+    name: My Sword
+    permission: myitems.mysword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      texture: item/example_item.png
+    durability:
+      max_custom_durability: 1324
+```
+
+
+## Final part
+
+Now you just need to tell the plugin to load your just added item.\
+To do that you have to:
+
+* &#x20;join the server
+* &#x20;make sure you accepted the resourcepacks
+* &#x20;use the command `/iazip`
+* (if you're using **external-host** (**DropBox**) scroll down and follow the instructions)
+* &#x20;get the item using `/iaget mysword`
+
+![](</assets/images/immagine (21).png>)
+
+![](</assets/images/immagine (58).png>)
+
+## Resourcepack Hosting Tutorials
+
+
+<Card title="resourcepack-hosting" icon="text" href="/resourcepack-hosting/">
+resourcepack-hosting
+</Card>
+
+

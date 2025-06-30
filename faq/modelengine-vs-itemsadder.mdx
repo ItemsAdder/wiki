@@ -1,0 +1,167 @@
+---
+icon: m
+---
+
+## Compatibility
+
+
+<Card title="modelengine.md" icon="text" href="/compatibility-with-other-plugins/compatible/modelengine">
+</Card>
+
+
+## Differences between ItemsAdder and ModelEngine
+
+
+<Warning>
+Please consider contacting me if you find incorrect data on this page, I'll be more than happy to discuss about it and fix the reported inconsistencies.
+</Warning>
+
+
+### Disclaimer
+
+This page is not meant to discredit the works put into ModelEngine or to decide which plugin is better.\
+ModelEngine lets you introduce custom entities that act almost like the vanilla ones at a reasonable price.\
+These are just my thoughts about ModelEngine, but there's probably some features I missed.\
+So, take what I say with a grain of salt and ask others which plugin they like the most.
+
+<details>
+
+<summary>Click to read the old comparison by Ticxo</summary>
+
+Ticxo (ModelEngine developer):
+
+> This is in no way an effort to try to prove which plugin is better. ItemsAdder is truly a fascinating, feature-packed plugin at a very reasonable price range. The following are all my observations and in no way the complete picture of ItemsAdder. Please take my observation with a grain of salt and consult others to see which plugin fits you!
+
+<mark>⚠️</mark> Tocxo's comparison page wasn't updated since Nov 26, 2022 and might not reflect the actual state of the plugins.
+
+[Click here](https://git.lumine.io/mythiccraft/modelengine/-/wikis/Comparison:-ItemsAdder) to access the old differences page.
+
+</details>
+
+***
+
+| Feature                                          | ItemsAdder                                                                                                                                             | ModelEngine v3                                                                                                                                                                                                                                                                       | ModelEngine v4                           |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| Transition between animations                   | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Async (TPS Unaffected)                          | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Blockbench Plugin                                | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Citizens Integration                            | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Community-Made Assets                           | ~20                                                                                                                                                     | ~200                                                                                                                                                                                                                                                                                   | ?                                         |
+| Configurable Tint Item                          | ❌ (POTION by default and PLAYER_HEAD for emotes)                                                                                                       | ✅ (Leather Horse Armor by default. All leather armor except helmet, all potions, tipped arrow and filled map)                                                                                                                                | Same as MEG v3                           |
+| Cost                                            | €19.95                                                                                                                                                  | v3: $18.99 (requires payment to update v3→v4)                                                                                                                                                                                                                                        | v4: $31.99<br/>- 52% more than ItemsAdder<br/>- 72% more than MEG v3         |
+| Effect Keyframes (particle and sound)           | ✅                                                                                                                                                      | ✅* ([scriptable keyframe](https://github.com/Ticxo/Model-Engine-Wiki/wiki/%5BTemporary-Wiki%5D-3.0-Features#scriptable-keyframes))                                                                                                                                  | Unknown                                  |
+| Hand Item Display                               | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Head Position                                   | Must be centered                                                                                                                                        | Can be in any position                                                                                                                                                                                                                                                                | Same as MEG v3                           |
+| Inverse Kinematics                              | ❌                                                                                                                                                      | ✅* (only segmented)                                                                                                                                                                                                                                                                  | Same as MEG v3                           |
+| Scale Keyframes                                 | ✅                                                                                                                                                      | ❌                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Model Disguise                                  | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Unlimited Bone Model Size Limit                 | ❌                                                                                                                                                      | ❌                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Player Skin Bones                               | ✅* (only in emotes)                                                                                                                                    | ❌                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Display Entities Support                        | ❌                                                                                                                                                      | ❌                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Model Import                                    | Import & Export using custom Blockbench plugin                                                                                                         | Drag & Drop                                                                                                                                                                                                                                                                           | Same as MEG v3                           |
+| Entity Rotation (Body and Head bone interaction)| Like vanilla entities                                                                                                                                   | Player & Entity style:<br/>- [Player] Body rotates when head-body angle is too large<br/>- [Entity] Body rotates after delay<br/>- Model faces traveling direction<br/>- Configurable angle, clamp, duration and delay<br/>- Asymmetric clamp | Same as MEG v3                           |
+| Multi-Nametag                                   | ❌                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Multi-Hitbox                                    | ❌                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| MythicMobs Integration                          | 6 Mechanics:<br/>- Apply model<br/>- Play & Stop animation<br/>- Override default animation<br/>- Mount & Dismount model<br/>- Color & Enchant model<br/>- Show & Hide bones<br/>[More Info](../plugin-usage/adding-content/mobs/mythicmobs.md) | 30+ Mechanics:<br/>- Apply & Remove model<br/>- Play & Stop animation<br/>- Override default animations<br/>- Mount & Dismount model<br/>- Set, Show & Hide nametags<br/>- Color & Enchant model<br/>- Disguise & Un-disguise player<br/>- Combine, Remove, Show & Hide bones<br/>- Bone parent swapping<br/>- Create statues<br/>- Multi-hitbox config<br/>- Instant model variant swapping<br/>- 10+ VFX-related mechanics | Unknown                                  |
+| Non-Entity Model Related Features              | ✅ (it's a content manager, allows adding more than only custom entities)                                                                               | ❌ (only allows adding custom entities)                                                                                                                                                                                                                                               | Same as MEG v3                           |
+| Packet Amount                                   | Uses less packets in some cases, more in others.<br/><sub>(Refer to the comparison below)</sub>                                                        | Same as ItemsAdder                                                                                                                                                                                                                                                                   | Same as ItemsAdder                       |
+| Procedural Animation (Realtime calculations)    | ❌                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Resource Pack Generation                        | ✅                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+| Multiple Resource Packs                         | ✅* ([Requires merging](../plugin-usage/merge-resourcepacks.md))                                                                                        | ❌                                                                                                                                                                                                                                                                                     | ❌                                        |
+| Stability                                       | Entity system released March 2022                                                                                                                       | Released Jun 13, 2020                                                                                                                                                                                                                                                                | Released Oct 1, 2023                     |
+| VFX Models (Lightweight models for projectiles) | ❌                                                                                                                                                      | ✅                                                                                                                                                                                                                                                                                     | ✅                                        |
+
+### Network traffic comparison
+
+This is a comparison of the network traffic usage of both plugins (lower **rx** and **traffic** are better).\
+To make these tests I used 25 `ninja_skeleton` model downloadable from here: [ItemsAdder](https://www.spigotmc.org/resources/entity-ninja-skeleton-for-itemsadder.100468/), [ModelEngine](https://mythiccraft.io/index.php?resources/modelengine-ninja-skeleton-model.214/).
+
+#### No AI (standing still with idle animation)
+
+<table><thead><tr><th width="96">Plugin</th><th width="90">Version</th><th width="90">Mode</th><th width="91">Bundle</th><th width="83">rx</th><th width="104">Traffic</th><th>Video</th></tr></thead><tbody><tr><td>IA</td><td>3.6.2</td><td>smooth</td><td>Y</td><td>5500</td><td>300KiB/s</td><td><a href="https://youtu.be/lPHtIqBwx68">Watch</a></td></tr><tr><td>IA</td><td>3.6.2</td><td>smooth</td><td>N</td><td>6800</td><td>160KiB/s</td><td><a href="https://youtu.be/-_GZ_SALruQ">Watch</a></td></tr><tr><td>MEG</td><td>R3.1.9</td><td>A,A,C</td><td>-</td><td>8200</td><td>200KiB/s</td><td><a href="https://youtu.be/IuIxMatqSYo">Watch</a></td></tr><tr><td>MEG</td><td>R4.0.2</td><td>-</td><td><em>Y</em></td><td>8500</td><td>260KiB/s</td><td><a href="https://youtu.be/r4fbzi_sQgc">Watch</a></td></tr></tbody></table>
+
+<table><thead><tr><th width="198">IA</th><th width="151">MEG</th><th width="142">rx diff (a->b)</th><th>traffic diff (a->b)</th></tr></thead><tbody><tr><td>IA 3.6.2 bundle</td><td>MEG 3.1.9</td><td><mark>-49%</mark></td><td><mark>+33%</mark></td></tr><tr><td>IA 3.6.2</td><td>MEG 3.1.9</td><td><mark>-20%</mark></td><td><mark>-25%</mark></td></tr><tr><td>IA 3.6.2 bundle</td><td>MEG 4.0.2</td><td><mark>-54%</mark></td><td><mark>+13%</mark></td></tr><tr><td>IA 3.6.2</td><td>MEG 4.0.2</td><td><mark>-25%</mark></td><td><mark>-62%</mark></td></tr><tr><td>MEG 4.0.2</td><td>MEG 3.1.9</td><td><mark>+3%</mark></td><td><mark>+23%</mark></td></tr></tbody></table>
+
+#### With AI (wandering around)
+
+<table><thead><tr><th width="98">Plugin</th><th width="90">Version</th><th width="90">Mode</th><th width="87">Bundle</th><th width="83">rx</th><th width="104">Traffic</th><th>Video</th></tr></thead><tbody><tr><td>IA</td><td>3.6.2</td><td>smooth</td><td>Y</td><td>7700</td><td>450KiB/s</td><td><a href="https://youtu.be/Jow0Vhs2BSQ">Watch</a></td></tr><tr><td>IA</td><td>3.6.2</td><td>smooth</td><td>N</td><td>13k</td><td>350KiB/s</td><td><a href="https://youtu.be/NiJRDJcVLTg">Watch</a></td></tr><tr><td>MEG</td><td>R3.1.9</td><td>A,A,C</td><td>N</td><td>10k</td><td>270KiB/s</td><td><a href="https://youtu.be/1S5TXngOr0U">Watch</a></td></tr><tr><td>MEG</td><td>R4.0.2</td><td>-</td><td><em>Y</em></td><td>9000</td><td>280KiB/s</td><td><a href="https://youtu.be/yz1ZuTvFBEg">Watch</a></td></tr></tbody></table>
+
+<table><thead><tr><th width="198">IA</th><th width="151">MEG</th><th width="142">rx diff (a->b)</th><th>traffic diff (a->b)</th></tr></thead><tbody><tr><td>IA 3.6.2 bundle</td><td>MEG 3.1.9</td><td><mark>-23%</mark></td><td><mark>+66%</mark></td></tr><tr><td>IA 3.6.2</td><td>MEG 3.1.9</td><td><mark>+30%</mark></td><td><mark>+29%</mark></td></tr><tr><td>IA 3.6.2 bundle</td><td>MEG 4.0.2</td><td><mark>-14%</mark></td><td><mark>+60%</mark></td></tr><tr><td>IA 3.6.2</td><td>MEG 4.0.2</td><td><mark>+44%</mark></td><td><mark>+25%</mark></td></tr><tr><td>MEG 4.0.2</td><td>MEG 3.1.9</td><td><mark>-11%</mark></td><td><mark>+3%</mark></td></tr></tbody></table>
+
+### Animation quality comparison
+
+<Tabs>
+  <Tab title="itemsAdder">
+
+[View here](https://youtu.be/uQHvIv7-laM)
+
+  </Tab>
+  <Tab title="ModelEngine">
+
+[View here](https://youtu.be/ejhiwHn2fOM)
+
+  </Tab>
+</Tabs>
+
+
+### ModelEngine v4 "overall network load reduction" controversy
+
+MythicCraft [announcement](https://web.archive.org/web/20231020161618/https://mythiccraft.io/index.php?threads/modelengine-4-is-out-now.23407/) advertises an "overall network load reduction" for their new ModelEngine v4 version.
+
+There is some chat going on on the MythicCraft Discord server about how rx (packets sent to the client) are extremely lower compared to MEG 3. I also got contacted by some users about this fact and this caught my curiosity.\
+However these users statements are misleading.
+
+<div><img src="/assets/images/image (228).png" /> <img src="/assets/images/image (229).png" /> <img src="/assets/images/image (227).png" /></div>
+
+I decided to make some analysis using the client F3 screen data and I made a custom Spigot [plugin](https://github.com/LoneDev6/IAMEGBenchmark) for the occasion.\
+The rx values showcased by these users are not correct because of how the client calculates this value.\
+MEG v4 uses bundle packets which allow the client to wait before elaborating a group of packets received between an interval.
+
+The bundle packet works like that:
+
+1. Server sends `bundle start` packet
+2. Server sends the packets (in this case MEG sends display entity teleport and display entity size + rotation
+3. Server sends `bundle end` packet
+
+This means that the server sends 4 packets in total, but the rx value shown on the client is instead 1.\
+This happens because the game considers the bundle packets as a single packet, so the F3 screen shows an unreliable value for the purpose of comparing v3 vs v4 or ModelEngine vs ItemsAdder.
+
+I did some testing using a model lend by the [EliteCreatures](https://a.devs.beer/elitecreatures-meg-comparison) team: a ship model with 35 bones.
+
+<Tabs>
+  <Tab title="MEG R4.0.2">
+
+[View here](https://youtu.be/B1cxPPDNqVE?1)
+
+  </Tab>
+  <Tab title="MEG R3.1.9">
+
+[View here](https://youtu.be/2zbLISIzRnA)
+
+  </Tab>
+</Tabs>
+
+
+### Conclusion
+
+✅ IA sends less packets when entities are stand still and not walking around (but still running their current animation, obviously).\
+❌ IA (for now) sends [more packets](#user-content-fn-1)[^1] than MEG v3 when referring to entities walking around the world.\
+❌ IA has some missing features compared to MEG v3, but they are not something which creates any difficulty into creating realistic custom entities. Refer to the previous comparison table.
+
+✅ MEG v3 has lower packet usage (-30%) for moving entities compared to IA.\
+❌ MEG v3 has higher packet usage (+20%) for standing entities compared to IA.\
+❌ MEG v3 entity walking/rotating looks clunky as you can see in the **previous video**.
+
+
+<Note>
+The packets amount difference is negligible between ModelEngine v3 and ItemsAdder for both plugins.
+
+ModelEngine v4 introduces the display entities usage which cuts down the packets usage due to how these entities work.
+
+In the future ItemsAdder might transition to display entities.
+
+In conclusion: you have to decide which one fits your server project the most.
+</Note>
+
+
+[^1]: The cause is not very clear, it might be related to how ItemsAdder handles custom entities head/body orientation logic, which is close to vanilla Minecraft.

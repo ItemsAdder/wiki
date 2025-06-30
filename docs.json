@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "ItemsAdder",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8d41b6",
+    "light": "#8d41b6",
+    "dark": "#8d41b6"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -16,6 +16,7 @@
           {
             "group": "Table of contents",
             "pages": [
+              "index",
               {
                 "group": "Frequently asked questions",
                 "pages": [
@@ -360,8 +361,8 @@
               "plugin-usage/permissions",
               "plugin-usage/merge-resourcepacks",
               "plugin-usage/ia",
-              "plugin-usage/resourcepack-prompt-message-1.17+",
-              "plugin-usage/text-effects-1.17+",
+              "plugin-usage/resourcepack-prompt-message",
+              "plugin-usage/text-effects",
               "plugin-usage/text-formatting",
               {
                 "group": "Scripting",
@@ -419,27 +420,26 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/logo.png",
+    "dark": "/logo/logo.png"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Discord",
+      "href": "https://discord.gg/4dfnpUK"
     }
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "integrations": {
+    "cookies": {
+      "key": "itemsadder-wiki",
+      "value": "itemsadder-wiki"
+    },
+    "telemetry": {
+      "enabled": false
+    },
+    "osano": {
+      "scriptSource": "https://cmp.osano.com/2sUB2dqwqdkks/8dqwd-dwd86£-4a9b/osano.js"
     }
   }
 }

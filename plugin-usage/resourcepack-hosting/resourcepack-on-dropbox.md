@@ -1,7 +1,3 @@
----
-icon: edit
----
-
 # DropBox
 
 ## Text tutorial
@@ -12,11 +8,11 @@ icon: edit
 * **Drag and drop** **generated.zip** onto **DropBox** or copy paste the file to it from your server host.
 * Press **Share**.
 
-![](<assets/images/immagine (99).png>)
+![](</assets/images/immagine (99).png>)
 
 * Press **Create**.
 
-![](<assets/images/immagine (41).png>)
+![](</assets/images/immagine (41).png>)
 
 * Press **Copy link**.
 * For example if your link is [https://www.dropbox.com/blablabla?dl=0](https://www.dropbox.com/blablabla?dl=0):
@@ -56,7 +52,7 @@ If you **reupload** the **zip** file with the same and keep the **same URL** it 
 Yea it is, that's why you should use the self host feature instead of **DropBox**. But some hosting methods (cheap ones) don't provide port opening, so you must use **DropBox**.
 
 
-<Card title="resourcepack-self-hosting.md" icon="text" href="/resourcepack-self-hosting.md/">
+<Card title="resourcepack-self-hosting.md" icon="text" href="/resourcepack-self-hosting">
 resourcepack-self-hosting.md
 </Card>
 
@@ -64,6 +60,6 @@ resourcepack-self-hosting.md
 ## Continue installation if you need
 
 
-<Card title="first-install.md" icon="text" href="/../first-install.md/">
+<Card title="first-install.md" icon="text" href="/first-install">
 first-install.md
 </Card>
