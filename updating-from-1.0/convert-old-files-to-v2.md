@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: info
 ---
 
 # Convert old files to v2

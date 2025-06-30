@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: info
 ---
 
 # 🦴 Emotes with more joins

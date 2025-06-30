@@ -1,5 +1,5 @@
 ---
-icon: edit
+icon: info
 ---
 
 # Edit the English wiki
