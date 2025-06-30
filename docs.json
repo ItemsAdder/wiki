@@ -12,6 +12,16 @@
       "dark": "#1d1d1d"
     }
   },
+  "appearance": {
+    "default": "dark"
+  },
+  "seo": {
+    "metatags": {
+      "title": "ItemsAdder Wiki",
+      "description": "ItemsAdder is a Minecraft plugin that allows you to add custom items, blocks, and more to your server. This wiki provides documentation, tutorials, and resources for using ItemsAdder effectively.",
+      "keywords": "ItemsAdder, Minecraft, plugin, custom items, custom blocks, wiki"
+    }
+  },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
