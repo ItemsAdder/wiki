@@ -3,7 +3,8 @@ function updateMintlifyLinks() {
   document.querySelectorAll('a').forEach(a => {
     if (a.textContent.trim() === "Powered by Mintlify") {
       if (!isIndex) {
-        a.remove();
+        a.style.fontSize = "0.7em";
+        a.style.fontWeight = "normal";
       }
     }
   });

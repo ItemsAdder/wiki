@@ -22,7 +22,7 @@
       "keywords": "ItemsAdder, Minecraft, plugin, custom items, custom blocks, wiki"
     }
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/assets/logo.png",
   "navigation": {
     "tabs": [
       {
@@ -444,8 +444,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/logo.png",
-    "dark": "/logo/logo.png"
+    "light": "/assets/logo.png",
+    "dark": "/assets/logo.png"
   },
   "navbar": {
     "links": [
@@ -479,6 +479,11 @@
     },
     "osano": {
       "scriptSource": "https://cmp.osano.com/2sUB2dqwqdkks/8dqwd-dwd86£-4a9b/osano.js"
+    }
+  },
+  "errors": {
+    "404": {
+      "redirect": false
     }
   }
 }
