@@ -56,6 +56,7 @@
                   "faq/block-particles-not-playing",
                   {
                     "group": "Bungeecord / Velocity",
+                    "icon": "network-wired",
                     "pages": [
                       "faq/bungeecord-velocity/remove-pack-on-server-change",
                       "faq/bungeecord-velocity/single-resourcepack-bungeecord",
@@ -87,9 +88,11 @@
                 "group": "Compatibility with other plugins",
                 "icon": "square-check",
                 "pages": [
+                  "compatibility-with-other-plugins/README",
                   "compatibility-with-other-plugins/not-compatible",
                   {
                     "group": "Compatible",
+                    "icon": "check",
                     "pages": [
                       "compatibility-with-other-plugins/compatible/cosmeticscore",
                       "compatibility-with-other-plugins/compatible/rpgmoney",
@@ -114,6 +117,7 @@
                       {
                         "group": "MMOItems",
                         "pages": [
+                          "compatibility-with-other-plugins/compatible/mmoitems/README",
                           "compatibility-with-other-plugins/compatible/mmoitems/fix-blocks-problem"
                         ]
                       },
@@ -219,19 +223,25 @@
                       "plugin-usage/adding-content/item-properties/resource",
                       {
                         "group": "Events",
+                        "icon": "arrow-progress",
                         "pages": [
+                          "plugin-usage/adding-content/item-properties/events/README",
                           "plugin-usage/adding-content/item-properties/events/events-list"
                         ]
                       },
                       {
                         "group": "Actions",
+                        "icon": "bolt",
                         "pages": [
+                          "plugin-usage/adding-content/item-properties/actions/README",
                           "plugin-usage/adding-content/item-properties/actions/actions"
                         ]
                       },
                       {
                         "group": "Behaviours",
+                        "icon": "person-running-fast",
                         "pages": [
+                          "plugin-usage/adding-content/item-properties/behaviours/README",
                           "plugin-usage/adding-content/item-properties/behaviours/behaviours-list"
                         ]
                       },
@@ -242,6 +252,7 @@
                   "plugin-usage/adding-content/block",
                   {
                     "group": "Block - Advanced",
+                    "icon": "cube",
                     "pages": [
                       "plugin-usage/adding-content/advanced-block-properties/block-2d-icon",
                       "plugin-usage/adding-content/advanced-block-properties/directional-blocks",
@@ -256,7 +267,9 @@
                   "plugin-usage/adding-content/fishing-rod-shield-bundle",
                   {
                     "group": "Furniture - Simple",
+                    "icon": "lamp-floor",
                     "pages": [
+                      "plugin-usage/adding-content/furniture/README",
                       "plugin-usage/adding-content/furniture/furniture-2d-icon",
                       "plugin-usage/adding-content/furniture/furniture-size",
                       "plugin-usage/adding-content/furniture/furniture-execute-actions",
@@ -269,6 +282,7 @@
                   "plugin-usage/adding-content/armors",
                   {
                     "group": "Armors (old)",
+                    "icon": "helmet-battle",
                     "pages": [
                       "plugin-usage/adding-content/armors-old/simple-armor",
                       "plugin-usage/adding-content/armors-old/textured-armor"
@@ -292,15 +306,12 @@
                   "plugin-usage/adding-content/item-tooltip",
                   {
                     "group": "HUDs",
+                    "icon": "crosshairs-simple",
                     "pages": [
-                      {
-                        "group": "Creating HUDs",
-                        "pages": [
-                          "plugin-usage/adding-content/huds/creating-huds/frames-hud",
-                          "plugin-usage/adding-content/huds/creating-huds/status-hud",
-                          "plugin-usage/adding-content/huds/creating-huds/custom-hud-advanced"
-                        ]
-                      },
+                      "plugin-usage/adding-content/huds/README",
+                      "plugin-usage/adding-content/huds/frames-hud",
+                      "plugin-usage/adding-content/huds/status-hud",
+                      "plugin-usage/adding-content/huds/custom-hud-advanced",
                       "plugin-usage/adding-content/huds/trigger-value-change"
                     ]
                   },
@@ -308,6 +319,7 @@
                   "plugin-usage/adding-content/colored-models",
                   {
                     "group": "Fonts",
+                    "icon": "font",
                     "pages": [
                       "plugin-usage/adding-content/fonts/method-2",
                       "plugin-usage/adding-content/fonts/method-1"
@@ -334,28 +346,29 @@
                   {
                     "group": "Entities",
                     "pages": [
-                      "plugin-usage/adding-content/mobs/introduction",
-                      "plugin-usage/adding-content/mobs/advanced-method",
-                      "plugin-usage/adding-content/mobs/animations",
-                      "plugin-usage/adding-content/mobs/mount",
-                      "plugin-usage/adding-content/mobs/hitbox",
-                      "plugin-usage/adding-content/mobs/head",
-                      "plugin-usage/adding-content/mobs/hands-equipment",
-                      "plugin-usage/adding-content/mobs/sounds",
-                      "plugin-usage/adding-content/mobs/particles",
-                      "plugin-usage/adding-content/mobs/advanced-settings",
-                      "plugin-usage/adding-content/mobs/spawn-egg",
-                      "plugin-usage/adding-content/mobs/entity-random-spawn",
-                      "plugin-usage/adding-content/mobs/events-and-actions",
+                      "plugin-usage/adding-content/entities/introduction",
+                      "plugin-usage/adding-content/entities/advanced-method",
+                      "plugin-usage/adding-content/entities/animations",
+                      "plugin-usage/adding-content/entities/mount",
+                      "plugin-usage/adding-content/entities/hitbox",
+                      "plugin-usage/adding-content/entities/head",
+                      "plugin-usage/adding-content/entities/hands-equipment",
+                      "plugin-usage/adding-content/entities/sounds",
+                      "plugin-usage/adding-content/entities/particles",
+                      "plugin-usage/adding-content/entities/advanced-settings",
+                      "plugin-usage/adding-content/entities/spawn-egg",
+                      "plugin-usage/adding-content/entities/entity-random-spawn",
+                      "plugin-usage/adding-content/entities/events-and-actions",
                       {
                         "group": "Entity Goals",
                         "pages": [
-                          "plugin-usage/adding-content/mobs/entity-goals/entity-goals-list"
+                          "plugin-usage/adding-content/entities/entity-goals/README",
+                          "plugin-usage/adding-content/entities/entity-goals/entity-goals-list"
                         ]
                       },
-                      "plugin-usage/adding-content/mobs/custom-skin",
-                      "plugin-usage/adding-content/mobs/citizens",
-                      "plugin-usage/adding-content/mobs/mythicmobs"
+                      "plugin-usage/adding-content/entities/custom-skin",
+                      "plugin-usage/adding-content/entities/citizens",
+                      "plugin-usage/adding-content/entities/mythicmobs"
                     ]
                   },
                   "plugin-usage/adding-content/animated-titles",
@@ -363,6 +376,7 @@
                   "plugin-usage/adding-content/animated-3d-items",
                   {
                     "group": "Other Items Examples",
+                    "icon": "sword",
                     "pages": [
                       "plugin-usage/adding-content/other-items-examples/magic-wand",
                       "plugin-usage/adding-content/other-items-examples/bundle",
@@ -376,6 +390,7 @@
                 "group": "Commands",
                 "icon": "square-terminal",
                 "pages": [
+                  "plugin-usage/commands/README",
                   "plugin-usage/commands/iaconfig",
                   "plugin-usage/commands/iarename",
                   "plugin-usage/commands/iaimage"
@@ -391,6 +406,7 @@
                 "group": "Scripting",
                 "icon": "code",
                 "pages": [
+                  "scripting/README",
                   "scripting/constructs",
                   "scripting/examples"
                 ]
@@ -403,7 +419,7 @@
             "pages": [
               "other/resourcepack-protection",
               "other/custom-player-stats",
-              "other/hide-scoreboard-numbers-1.17+",
+              "other/hide-scoreboard-numbers",
               "other/loading-screen",
               "other/bulk-colorize-images",
               "other/videos-by-users",
@@ -421,6 +437,7 @@
             "pages": [
               {
                 "group": "Java API",
+                "icon": "terminal",
                 "pages": [
                   "developers/java-api/examples",
                   "developers/java-api/events",
@@ -430,6 +447,7 @@
               },
               {
                 "group": "Skript API",
+                "icon": "square-terminal",
                 "pages": [
                   "developers/skript-api/simple",
                   "developers/skript-api/expert-users-1"

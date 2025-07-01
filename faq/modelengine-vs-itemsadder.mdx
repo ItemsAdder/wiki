@@ -93,12 +93,30 @@ To make these tests I used 25 `ninja_skeleton` model downloadable from here: [It
 <Tabs>
   <Tab title="itemsAdder">
 
-<Card title="UQHvIv7 LaM" icon="link" href="https://youtu.be/uQHvIv7-laM" horizontal></Card>
+<Frame>
+  <iframe 
+    className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/uQHvIv7-laM" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen 
+  />
+</Frame>
 
   </Tab>
   <Tab title="ModelEngine">
 
-<Card title="EjhiwHn2fOM" icon="link" href="https://youtu.be/ejhiwHn2fOM" horizontal></Card>
+<Frame>
+  <iframe 
+    className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/ejhiwHn2fOM" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen 
+  />
+</Frame>
 
   </Tab>
 </Tabs>
@@ -131,12 +149,30 @@ I did some testing using a model lend by the [EliteCreatures](https://a.devs.bee
 <Tabs>
   <Tab title="MEG R4.0.2">
 
-<Card title="B1cxPPDNqVE" icon="link" href="https://youtu.be/B1cxPPDNqVE?1" horizontal></Card>
+<Frame>
+  <iframe 
+    className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/B1cxPPDNqVE?1" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen 
+  />
+</Frame>
 
   </Tab>
   <Tab title="MEG R3.1.9">
 
-<Card title="2zbLISIzRnA" icon="link" href="https://youtu.be/2zbLISIzRnA" horizontal></Card>
+<Frame>
+  <iframe 
+    className="w-full aspect-video rounded-xl" 
+    src="https://www.youtube.com/embed/2zbLISIzRnA" 
+    title="YouTube video player" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen 
+  />
+</Frame>
 
   </Tab>
 </Tabs>
@@ -145,13 +181,12 @@ I did some testing using a model lend by the [EliteCreatures](https://a.devs.bee
 ### Conclusion
 
 ✅ IA sends less packets when entities are stand still and not walking around (but still running their current animation, obviously).\
-❌ IA (for now) sends [more packets](#user-content-fn-1)[^1] than MEG v3 when referring to entities walking around the world.\
+❌ IA (for now) sends <Tooltip tip="The cause is not very clear, it might be related to how ItemsAdder handles custom entities head/body orientation logic, which is close to vanilla Minecraft.">more packets</Tooltip> than MEG v3 when referring to entities walking around the world.\
 ❌ IA has some missing features compared to MEG v3, but they are not something which creates any difficulty into creating realistic custom entities. Refer to the previous comparison table.
 
 ✅ MEG v3 has lower packet usage (-30%) for moving entities compared to IA.\
 ❌ MEG v3 has higher packet usage (+20%) for standing entities compared to IA.\
 ❌ MEG v3 entity walking/rotating looks clunky as you can see in the **previous video**.
-
 
 <Note>
 The packets amount difference is negligible between ModelEngine v3 and ItemsAdder for both plugins.
@@ -163,5 +198,3 @@ In the future ItemsAdder might transition to display entities.
 In conclusion: you have to decide which one fits your server project the most.
 </Note>
 
-
-[^1]: The cause is not very clear, it might be related to how ItemsAdder handles custom entities head/body orientation logic, which is close to vanilla Minecraft.
